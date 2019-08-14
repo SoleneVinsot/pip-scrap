@@ -5,26 +5,30 @@ import html
 import csv
 import numpy as np
 
-liens=np.load("liens_france.npy")
-liens=list(liens)
+# Nom du fichier de sauvegarde
+filename = 'liens_france.npy'
 
-requests_headers={'User-Agent':"(Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6"}
+linksObject = np.load(filename)
+# Transforme notre object en liste
+links = list(linksObject)
 
-adresse=[]
-ville=[]
-pays=[]
-numero=[]
-entreprise=[]
-email=[]
+# Ces liens ne fonctionnent pas
+del links[281]
+del links[575]
+del links[625]
+del links[454]
 
-del liens[281]
-del liens[575]
-del liens[625]
-del liens [454]
-print(liens)
+requests_headers = {'User-Agent':"(Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6"}
+
+adresse = []
+ville = []
+pays = []
+numero = []
+entreprise = []
+email = []
 
 n = 0
-for i in liens :
+for i in links :
     print(n)
     n += 1
     req=requests.get(i, headers=requests_headers, timeout=10)
