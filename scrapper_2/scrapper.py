@@ -20,7 +20,7 @@ offices = []
 names = []
 jobs = []
 emails_lawyer = []
-emails_office= []
+emails_office = []
 
 links = re.findall('<a href="(.+?(?=" target="_blank" class="rankingPlug__rowTeam__name customer"))', body)
 
@@ -29,6 +29,8 @@ for link in links:
     request = requests.get(url, headers = requests_headers)
     product = req.text
     contact_list_match = re.search('<ul class="contact-list">(.+?)</ul>', product, flags = re.DOTALL)
+
+    # Si le contact est trouvé
     if contact_list_match :
         contact_list = contact_list_match.group(0)
         listItems = re.findall('<li>(.+?)</li>', contact_list, flags = re.DOTALL)
@@ -53,8 +55,8 @@ result = [names, emails_lawyer, jobs, offices]
 
 script_dir = os.path.dirname(__file__)
 file_path = os.path.join(script_dir, saveAs)
-with open(file_path, "w", encoding = 'utf-8') as outfile :
-        data = csv.writer(outfile, delimiter = ';', lineterminator = '\n')
-        data.writerow(['Prénom Nom','E-mail','Fonction','Nom du cabinet'])
-        for row in zip(*result):
-            data.writerow(row)
+with open(file_path, 'w', encoding = 'utf-8') as outfile :
+    data = csv.writer(outfile, delimiter = ';', lineterminator = '\n')
+    data.writerow(['Prénom Nom', 'Email', 'Fonction', 'Nom du cabinet'])
+    for row in zip(*result):
+        data.writerow(row)
