@@ -26,11 +26,11 @@ Ensuite, démarrer le script `scrapper.py` pour extraire les informations.
 
 Extrait les informations du site [https://www.magazine-decideurs.com](https://www.magazine-decideurs.com/classements/propriete-industrielle-brevets-contentieux-classement-2019-cabinet-d-avocats-france?locale=fr) (Classement des cabinets d'avocats) :
 
-* Numéro de téléphone
-* Cabinet
-* Nom
-* Métiers
-* Emails des avocats
-* Emails des cabinets
+* numéro de téléphone ;
+* cabinet ;
+* nom ; 
+* métiers ;
+* emails des avocats ;
+* emails des cabinets ;
 
 - Démarrer le script `scrapper.py` pour extraire les informations.
