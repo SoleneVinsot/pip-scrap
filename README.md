@@ -10,7 +10,7 @@
 
 ### Scrapper 1
 
-Récupère tous les liens du site [https://www.opinionsystem.fr](https://www.opinionsystem.fr) (Opinion System est le N°1 des avis clients contrôlés pour les professionnels du service et de l'immobilier) et extrait les informations suivantes :
+Récupère tous les liens du site [https://www.opinionsystem.fr](https://www.opinionsystem.fr) (*Opinion System est le N°1 des avis clients contrôlés pour les professionnels du service et de l'immobilier*) et extrait les informations suivantes :
 
 * adresse ;
 * ville ;
@@ -28,9 +28,9 @@ Extrait les informations du site [https://www.magazine-decideurs.com](https://ww
 
 * numéro de téléphone ;
 * cabinet ;
-* nom ; 
+* nom ;
 * métiers ;
 * emails des avocats ;
 * emails des cabinets ;
 
-- Démarrer le script `scrapper.py` pour extraire les informations.
+Démarrer le script `scrapper.py` pour extraire les informations.
