@@ -28,7 +28,7 @@ webElement = driver.find_element_by_id("query")
 webElement.send_keys("immobilier")
 
 # On récupère le button du formulaire de recherche et on clique dessus
-driver.find_element_by_class_name("/html/body/div[1]/section[2]/div/div/div/div/div/div/div[1]/div[3]/form/div[3]/button").click()
+driver.find_element_by_xpath("/html/body/div[1]/section[2]/div/div/div/div/div/div/div[1]/div[3]/form/div[3]/button").click()
 
 
 # Il y a 1100 résultats au total et 9 fiches par pages, soit 120 pages.
