@@ -2,3 +2,4 @@
 *.npy
 chromedriver
 .vscode
+.DS_store
