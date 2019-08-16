@@ -4,6 +4,7 @@ import requests
 import html
 import csv
 import numpy as np
+import os
 
 # Nom du fichier contenant les liens
 filenameLinks = 'liens_france.npy'
@@ -53,8 +54,11 @@ for i in links :
     email.extend(emailResult)
 
 result = [company, email, address, city, country , number]
-with open(saveAs, "w", encoding = 'utf-8') as outfile :
-        data = csv.writer(outfile, delimiter = ';', lineterminator = '\n')
-        data.writerow(['Nom', 'Email', 'Adresse', 'Ville', 'Pays', 'Numéro'])
-        for row in zip(*result) :
-            data.writerow(row)
+
+script_dir = os.path.dirname(__file__)
+file_path = os.path.join(script_dir, saveAs)
+with open(file_path, "w", encoding = 'utf-8') as outfile :
+    data = csv.writer(outfile, delimiter = ';', lineterminator = '\n')
+    data.writerow(['Nom', 'Email', 'Adresse', 'Ville', 'Pays', 'Numéro'])
+    for row in zip(*result) :
+        data.writerow(row)

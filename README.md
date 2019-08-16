@@ -1,9 +1,38 @@
-## PIP-SCRAP
+# PIP-SCRAP
 
-### Installation
+## Installation
 
 - Installer chromedriver : https://chromedriver.chromium.org/ puis déplacer le fichier dézipper à la racine du projet.
 
 - `pip install numpy` (Pour sauvegarder la liste dans un fichier `npy` par exemple)
 - `pip install request` (Pour requeter)
 - `pip install selenium` (Pour le webdriver)
+
+## Définition des scrappers
+
+### Scrapper 1
+
+Récupère tous les liens du site [https://www.opinionsystem.fr](https://www.opinionsystem.fr) (Opinion System est le N°1 des avis clients contrôlés pour les professionnels du service et de l'immobilier) et extrait les informations suivantes :
+
+* adresse ;
+* ville ;
+* pays ;
+* numéro de téléphone ;
+* entreprise ;
+* email ;
+
+Démarrer le script `getLinks.py` pour récupérer les liens.
+Ensuite, démarrer le script `scrapper.py` pour extraire les informations.
+
+### Scrapper 2
+
+Extrait les informations du site [https://www.magazine-decideurs.com](https://www.magazine-decideurs.com/classements/propriete-industrielle-brevets-contentieux-classement-2019-cabinet-d-avocats-france?locale=fr) (Classement des cabinets d'avocats) :
+
+* Numéro de téléphone
+* Cabinet
+* Nom
+* Métiers
+* Emails des avocats
+* Emails des cabinets
+
+- Démarrer le script `scrapper.py` pour extraire les informations.
