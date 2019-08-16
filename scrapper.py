@@ -5,10 +5,13 @@ import html
 import csv
 import numpy as np
 
-# Nom du fichier de sauvegarde
-filename = 'liens_france.npy'
+# Nom du fichier contenant les liens
+filenameLinks = 'liens_france.npy'
 
-linksObject = np.load(filename)
+# Nom du fichier de sauvegarde
+saveAs = 'contacts_avocats_barreau_paris.csv'
+
+linksObject = np.load(filenameLinks)
 # Transforme notre object en liste
 links = list(linksObject)
 
@@ -20,55 +23,38 @@ del links[454]
 
 requests_headers = {'User-Agent':"(Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6"}
 
-adresse = []
-ville = []
-pays = []
-numero = []
-entreprise = []
+address = []
+city = []
+country = []
+number = []
+company = []
 email = []
 
 n = 0
 for i in links :
-    print(n)
     n += 1
-    req=requests.get(i, headers=requests_headers, timeout=10)
-    code=req.text
-    code=html.unescape(code)
-    code=code.replace('\n', '')
-    code=code.replace('\t', '')
-    code=code.replace('\r','')
-    #entreprise
-    pat1='<span itemprop="itemreviewed" ><em>(.+?(?=</em></span>))'
-    ent=re.findall(pat1,code)
-    entreprise.extend(ent)
+    request = requests.get(i, headers = requests_headers, timeout = 10)
+    bodyString = request.text
+    bodyString = html.unescape(bodyString)
+    bodyString = bodyString.replace('\n', '')
+    bodyString = bodyString.replace('\t', '')
+    bodyString = bodyString.replace('\r', '')
 
+    companyResult = re.findall('<span itemprop="itemreviewed" ><em>(.+?(?=</em></span>))', bodyString)
+    company.extend(companyResult)
 
+    addressResult = re.findall('</div><div class="Information"><span>(.+?(?=</span></div>))', bodyString)
+    address.append(addressResult[0])
+    city.append(addressResult[1])
+    country.append(addressResult[2])
+    number.append(addressResult[3])
 
+    emailResult = re.findall('E-mail</span></div><div class="Colon"><span>:</span></div><div class="Information"><a href="mailto:(.+?(?=">))', bodyString)
+    email.extend(emailResult)
 
-    #adresse et numéro
-    pat2='</div><div class="Information"><span>(.+?(?=</span></div>))'
-    ad=re.findall(pat2,code)
-
-    adresse.append(ad[0])
-    ville.append(ad[1])
-    pays.append(ad[2])
-    numero.append(ad[3])
-
-    #mail
-    pat3='E-mail</span></div><div class="Colon"><span>:</span></div><div class="Information"><a href="mailto:(.+?(?=">))'
-    mail=re.findall(pat3,code)
-    email.extend(mail)
-
-print(len(entreprise))
-print(len(adresse))
-print(len(ville))
-print(len(pays))
-print(len(numero))
-print(len(email))
-
-K=[entreprise,email,adresse,ville,pays,numero]
-with open("contacts_avocats_barreau_paris.csv", "w",encoding='utf-8') as outfile:
-        data=csv.writer(outfile,delimiter=';',lineterminator='\n')
-        data.writerow(['Nom','Email','Adresse','Ville','Pays','Numéro'])
-        for row in zip(*K):
+result = [company, email, address, city, country , number]
+with open(saveAs, "w", encoding = 'utf-8') as outfile :
+        data = csv.writer(outfile, delimiter = ';', lineterminator = '\n')
+        data.writerow(['Nom', 'Email', 'Adresse', 'Ville', 'Pays', 'Numéro'])
+        for row in zip(*result) :
             data.writerow(row)
