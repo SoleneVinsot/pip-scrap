@@ -9,8 +9,6 @@ import html
 import csv
 import numpy as np
 
-## modif Solenee
-
 # Nom du fichier de sauvegarde
 filename = 'liens_france'
 # A changer selon votre path
