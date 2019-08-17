@@ -46,18 +46,17 @@ for activity in activities :
 
     def getLinksFromCards():
       j = 2
-      while j < 12 :
+      while True :
           try :
             anchor = driver.find_element_by_xpath('//*[@id="_ctl0_Corps_dgListeResultat"]/tbody/tr['+str(j)+']/td/table/tbody/tr/td/div/div/div[2]/table/tbody/tr[1]/td[1]/a')
             link = anchor.get_attribute('href')
             links.append(link)
             j += 1
           except :
-            print('except')
             break
 
     currentPage = 1
-    while currentPage < 100 :
+    while True :
         try :
           getLinksFromCards()
           driver.find_element_by_id("_ctl0_Corps_DataGridPager1_Page_" + str(currentPage + 1)).click()
