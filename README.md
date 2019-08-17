@@ -34,3 +34,16 @@ Extrait les informations du site [https://www.magazine-decideurs.com](https://ww
 * emails des cabinets ;
 
 Démarrer le script `scrapper.py` pour extraire les informations.
+
+### Scrapper 3
+
+Extrait les informations du site [http://www.avocatparis.org/](http://www.avocatsparis.org/Eannuaire/CMSRecherche2.aspx?wmode=transparent) (*Classement des cabinets d'avocats*) :
+
+* numéro de téléphone ;
+* nom ;
+* emails ;
+* fax ;
+* adresses ;
+* activités ;
+
+Démarrer le script `scrapper.py` pour extraire les informations.
