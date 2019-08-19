@@ -12,6 +12,7 @@ import xlsxwriter
 #from openpyxl import load_workbook
 
 
+
 #saveAs = 'contact_avocats_marseille_essaie.xslx'
 
 requests_headers = {'User-Agent':"(Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6"}
@@ -26,11 +27,11 @@ adresse = []
 
 n = 0
 
-while n<77:  
+while n<77:
 
     url = 'https://www.barreau-marseille.avocat.fr/fr/annuaire/page-'+str(n)+'?&full=&nom=&specialites=&recherche_annuaire-submit=Ok'
     req = requests.get(url, headers=requests_headers, timeout=10)
-    
+
     code = req.text
     code = html.unescape(code)
     code = code.replace('\n', '')
@@ -50,8 +51,8 @@ while n<77:
             pat2 = '</div>                                                            <h3>(.+?(?=</h3>))'
             discipline = re.findall(pat2,e)
             liste_disciplines.extend(discipline)
-        else : 
-            liste_disciplines.append('Non indiquée') 
+        else :
+            liste_disciplines.append('Non indiquée')
         pat4 = '<strong>Tél :</strong>                            (.+?(?=                                                                        <p>))'
 
         if '<strong>Tél' in e :
@@ -74,13 +75,13 @@ while n<77:
             liste_mails.extend(mail)
         else :
             liste_mails.append('NA')
-        
-        
+
+
         if ' - 13' in e :
             regex = '<p>([^<>]*?\\d{4,5}.*?)</p>'
             long = re.findall(regex,e)
             adresse.extend(long)
-        else : 
+        else :
             adresse.append('NA')
     n += 1
 
