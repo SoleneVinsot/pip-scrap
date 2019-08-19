@@ -37,7 +37,7 @@ Démarrer le script `scrapper.py` pour extraire les informations.
 
 ### Scrapper 3
 
-Extrait les informations du site [http://www.avocatparis.org/](http://www.avocatsparis.org/Eannuaire/CMSRecherche2.aspx?wmode=transparent) (*Classement des cabinets d'avocats*) :
+Extrait les informations du site [http://www.avocatparis.org/](http://www.avocatsparis.org/Eannuaire/CMSRecherche2.aspx?wmode=transparent) (*Liste des cabinets d'avocats*) :
 
 * numéro de téléphone ;
 * nom ;
@@ -47,3 +47,17 @@ Extrait les informations du site [http://www.avocatparis.org/](http://www.avocat
 * activités ;
 
 Démarrer le script `scrapper.py` pour extraire les informations.
+
+### Scrapper 4
+
+Extrait les informations du site [https://www.barreau-marseille.avocat.fr/](https://www.barreau-marseille.avocat.fr/fr/annuaire/page-1?&full=&nom=&specialites=&recherche_annuaire-submit=Ok) (*Liste des cabinets d'avocats*) :
+
+* Nom ;
+* Email ;
+* Adresse ;
+* Numéro ;
+* Fax ;
+* Activité ;
+
+Démarrer le script `scrapper.py` pour extraire les informations.
+
