@@ -5,6 +5,7 @@ import html
 import csv
 import re
 import requests
+import os
 
 
 saveAs = 'contact_avocats_marseille.csv'
@@ -83,7 +84,9 @@ while n<77:
 
 K=[liste_noms,liste_mails,adresse,liste_numéros,liste_fax,liste_disciplines]
 
-with open(saveAs, "w",encoding='utf-8') as outfile:
+script_dir = os.path.dirname(__file__)
+file_path = os.path.join(script_dir, saveAs)
+with open(file_path, "w",encoding='utf-8') as outfile:
         data=csv.writer(outfile,delimiter=';',lineterminator='\n')
         data.writerow(['Nom','Email','Adresse','Numéro','Fax','Activité'])
         for row in zip(*K):
