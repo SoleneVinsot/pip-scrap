@@ -9,6 +9,8 @@ import requests
 
 saveAs = 'contact_avocats_marseille.csv'
 
+requests_headers={'User-Agent':"(Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6"}
+
 
 liste_disciplines=[]
 liste_fax=[]
@@ -17,7 +19,6 @@ liste_numéros=[]
 liste_mails=[]
 adresse=[]
 
-requests_headers={'User-Agent':"(Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6"}
 n=0
 
 
@@ -78,6 +79,7 @@ while n<77:
         else : 
             adresse.append('NA')
     n=n+1
+
 
 K=[liste_noms,liste_mails,adresse,liste_numéros,liste_fax,liste_disciplines]
 
