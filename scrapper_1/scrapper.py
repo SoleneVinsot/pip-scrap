@@ -8,7 +8,7 @@ import os
 import pandas as pd
 
 # Nom du fichier de sauvegarde
-saveAs = 'contacts_avocats_barreau_paris.xslx'
+saveAs = 'contacts_immobilier_France.xslx'
 
 # Nom du fichier contenant les liens
 script_dir = os.path.dirname(__file__)
