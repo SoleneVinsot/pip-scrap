@@ -90,6 +90,8 @@ for activity in activities :
           break
 
     driver.find_element_by_id('_ctl0_Corps_ImageButton1').click()
+    print(activity, ' done')
+    print(len(links), ' in total')
 
 
 driver.quit()
