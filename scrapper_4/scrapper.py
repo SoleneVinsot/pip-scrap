@@ -7,16 +7,14 @@ import re
 import requests
 import os
 import pandas as pd
-import openpyxl
-import xlsxwriter
-#from openpyxl import load_workbook
 
+# Nom du fichier de sauvegarde
+saveAs = 'contact_avocats_marseille_essaie.xlsx'
 
-
-#saveAs = 'contact_avocats_marseille_essaie.xslx'
+# Récupération du path du fichier
+script_dir = os.path.dirname(__file__)
 
 requests_headers = {'User-Agent':"(Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6"}
-
 
 liste_disciplines = []
 liste_fax = []
@@ -27,7 +25,7 @@ adresse = []
 
 n = 0
 
-while n<77:
+while n < 77 :
 
     url = 'https://www.barreau-marseille.avocat.fr/fr/annuaire/page-'+str(n)+'?&full=&nom=&specialites=&recherche_annuaire-submit=Ok'
     req = requests.get(url, headers=requests_headers, timeout=10)
@@ -37,8 +35,6 @@ while n<77:
     code = code.replace('\n', '')
     code = code.replace('\t', '')
     code = code.replace('\r','')
-
-
 
     pat1 = '<div class="noms">                                <h2>(.+?(?=</h2>))'
     nom = re.findall(pat1,code)
@@ -86,10 +82,17 @@ while n<77:
     n += 1
 
 
-# script_dir = os.path.dirname(__file__)
-# file_path = os.path.join(script_dir, saveAs)
-df = pd.DataFrame.from_dict({'Nom':liste_noms,'Email':liste_mails,'Adresse':adresse,'Numéro':liste_numéros,'Fax':liste_fax,'Activité':liste_disciplines})
-df.to_excel('contact_avocats_marseille.xlsx', header=True, index=False)
+df = pd.DataFrame.from_dict({
+  'Nom': liste_noms,
+  'Email': liste_mails,
+  'Adresse': adresse,
+  'Numéro': liste_numéros,
+  'Fax': liste_fax,
+  'Activité': liste_disciplines
+})
+
+file_path = os.path.join(script_dir, saveAs)
+df.to_excel(file_path)
 
 
 

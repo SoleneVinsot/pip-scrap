@@ -60,7 +60,6 @@ for i in links :
         print('lien ', n, ' ne fonctionne pas')
         pass
 
-file_path_save = os.path.join(script_dir, saveAs)
 df = pd.DataFrame.from_dict({
   'Nom': company,
   'Email': email,
@@ -70,5 +69,6 @@ df = pd.DataFrame.from_dict({
   'Pays': country
 })
 
+file_path_save = os.path.join(script_dir, saveAs)
 df.to_excel(file_path_save)
 
