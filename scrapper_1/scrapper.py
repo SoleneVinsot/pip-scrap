@@ -8,7 +8,7 @@ import os
 import pandas as pd
 
 # Nom du fichier de sauvegarde
-saveAs = 'contacts_immobilier_France.xslx'
+#saveAs = 'contacts_immobilier_France.xslx'
 
 # Récupération du path du fichier
 script_dir = os.path.dirname(__file__)
@@ -60,7 +60,7 @@ for i in links :
         print('lien ', n, ' ne fonctionne pas')
         pass
 
-file_path_save = os.path.join(script_dir, saveAs)
+#file_path_save = os.path.join(script_dir, saveAs)
 df = pd.DataFrame.from_dict({
   'Nom': company,
   'Email': email,
@@ -70,5 +70,5 @@ df = pd.DataFrame.from_dict({
   'Pays': country
 })
 
-df.to_excel(file_path_save, header=True, index=False)
+df.to_excel("contacts_immobilier_France.xslx", header=True, index=False)
 

@@ -85,14 +85,6 @@ while n<77:
             adresse.append('NA')
     n += 1
 
-#test des listes
-print(len(adresse))
-print(len(liste_noms))
-print(len(liste_mails))
-print(len(liste_numéros))
-print(len(liste_fax))
-print(len(liste_disciplines))
-
 
 # script_dir = os.path.dirname(__file__)
 # file_path = os.path.join(script_dir, saveAs)
