@@ -1,5 +1,5 @@
 numpy==1.17.0
-selenium==3.141.0
+openpyxl==2.6.3
+pandas==0.25.0
 request==2019.4.13
-pandas==2.5.0
-openpyxl
+selenium==3.141.0
