@@ -8,6 +8,7 @@ import html
 import csv
 import os
 from selenium.webdriver.chrome.options import Options
+import pandas as pd
 
 # Options du chromedriver
 chrome_options = Options()
@@ -15,7 +16,10 @@ chrome_options.add_argument("--headless")
 chrome_options.add_argument("--window-size=1920x1080")
 
 # Nom du fichier de sauvegarde
-saveAs = 'Avocats-paris.csv'
+saveAs = 'Avocats-paris.xlsx'
+
+# Récupération du path du fichier
+script_dir = os.path.dirname(__file__)
 
 # URL à scrapper
 urlToScrap = 'http://www.avocatsparis.org/Eannuaire/CMSRecherche2.aspx?wmode=transparent'
@@ -87,7 +91,6 @@ for activity in activities :
 
     driver.find_element_by_id('_ctl0_Corps_ImageButton1').click()
 
-    print(len(links))
 
 driver.quit()
 
@@ -143,12 +146,16 @@ for act in acts:
     act = act.replace('<br />', ' ; ')
     activities.append(act)
 
-result = [names, emails, addresses, numbers, faxes, activities]
 
-script_dir = os.path.dirname(__file__)
-file_path = os.path.join(script_dir, saveAs)
-with open(file_path, "w", encoding = 'utf-8') as outfile :
-    data = csv.writer(outfile, delimiter=';', lineterminator = '\n')
-    data.writerow(['Nom', 'Email', 'Adresse', 'Numéro', 'Fax', 'Activités'])
-    for row in zip(*result) :
-        data.writerow(row)
+
+df = pd.DataFrame.from_dict({
+  'Nom': names,
+  'Email': emails,
+  'Adresse': addresses,
+  'Numéro': numbers,
+  'Fax': faxes,
+  'Activité': activities
+})
+
+file_path_save = os.path.join(script_dir, saveAs)
+df.to_excel(file_path_save)

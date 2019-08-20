@@ -4,9 +4,13 @@ import re
 import html
 import csv
 import os
+import pandas as pd
 
 # Nom du fichier de sauvegarde
-saveAs = 'Mailing_Avocats_PI_Brevet_Contentieux.csv'
+saveAs = 'Mailing_Avocats_PI_Brevet_Contentieux.xlsx'
+
+# Récupération du path du fichier
+script_dir = os.path.dirname(__file__)
 
 # URL à scrapper
 urlToScrap = 'https://www.magazine-decideurs.com/classements/propriete-industrielle-brevets-contentieux-classement-2019-cabinet-d-avocats-france?locale=fr'
@@ -42,8 +46,8 @@ for link in links:
             name = re.findall('<span class="name">(.+?(?=</span>\n))', li)
             names.extend(name)
             if '"mailto:' in li :
-                email_lawer = re.findall('<a href="mailto:(.+?(?=">))', li)
-                emails_lawyer.extend(email_lawer)
+                email_lawyer = re.findall('<a href="mailto:(.+?(?=">))', li)
+                emails_lawyer.extend(email_lawyer)
             else :
                 emails_lawyer.extend('N')
 
@@ -53,12 +57,12 @@ for link in links:
             else :
                 jobs.extend('N')
 
-result = [names, emails_lawyer, jobs, offices]
+df = pd.DataFrame.from_dict({
+  'Nom': names,
+  'Email': emails_lawyer,
+  'Fonction': jobs,
+  'Nom du cabinet': offices
+})
 
-script_dir = os.path.dirname(__file__)
-file_path = os.path.join(script_dir, saveAs)
-with open(file_path, 'w', encoding = 'utf-8') as outfile :
-    data = csv.writer(outfile, delimiter = ';', lineterminator = '\n')
-    data.writerow(['Prénom Nom', 'Email', 'Fonction', 'Nom du cabinet'])
-    for row in zip(*result) :
-        data.writerow(row)
+file_path_save = os.path.join(script_dir, saveAs)
+df.to_excel(file_path_save)
