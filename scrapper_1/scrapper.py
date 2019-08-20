@@ -34,9 +34,8 @@ number = []
 company = []
 email = []
 
-n = 0
+
 for i in links :
-    n += 1
     try :
         request = requests.get(i, headers = requests_headers, timeout = 10)
         bodyString = request.text
@@ -57,7 +56,6 @@ for i in links :
         emailResult = re.findall('E-mail</span></div><div class="Colon"><span>:</span></div><div class="Information"><a href="mailto:(.+?(?=">))', bodyString)
         email.extend(emailResult)
     except :
-        print('lien ', n, ' ne fonctionne pas')
         pass
 
 df = pd.DataFrame.from_dict({
