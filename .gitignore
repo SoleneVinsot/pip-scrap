@@ -1,5 +1,6 @@
 *.csv
 *.npy
+*.xlsx
 chromedriver
 .vscode
 .DS_store
