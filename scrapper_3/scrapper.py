@@ -28,7 +28,28 @@ driver = webdriver.Chrome(executable_path = os.path.join(os.getcwd(), 'chromedri
 driver.implicitly_wait(3)
 driver.get(urlToScrap)
 
-activities = ["Droit de la circulation et des transports", "Dommages corporels et matériels", "Droit de la consommation", "Contentieux,  médiation,  arbitrage", "Droit de la faillite et du surendettement", "Droit de la famille", "Droit de la sécurité sociale", "Droit de l'environnement", "Droit de l'immigration et d'asile", "Droit de l'UE", "Droit des affaires", "Droit des biens", "Droit des successions", "Droit des technologies de l'information", "Droit du travail", "Droit fiscal", "Droit pénal", "Droit public", "Droits de l'homme et libertés publiques", "Propriété intellectuelle"]
+activities = [
+  "Droit de la circulation et des transports",
+  "Dommages corporels et matériels",
+  "Droit de la consommation",
+  "Contentieux,  médiation,  arbitrage",
+  "Droit de la faillite et du surendettement",
+  "Droit de la famille",
+  "Droit de la sécurité sociale",
+  "Droit de l'environnement",
+  "Droit de l'immigration et d'asile",
+  "Droit de l'UE",
+  "Droit des affaires",
+  "Droit des biens",
+  "Droit des successions",
+  "Droit des technologies de l'information",
+  "Droit du travail",
+  "Droit fiscal",
+  "Droit pénal",
+  "Droit public",
+  "Droits de l'homme et libertés publiques",
+  "Propriété intellectuelle"
+]
 
 for activity in activities :
 

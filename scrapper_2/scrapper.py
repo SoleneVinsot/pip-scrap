@@ -5,11 +5,13 @@ import html
 import csv
 import os
 
+# Nom du fichier de sauvegarde
 saveAs = 'Mailing_Avocats_PI_Brevet_Contentieux.csv'
 
-requests_headers = {'User-Agent':"(Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6"}
-
+# URL à scrapper
 urlToScrap = 'https://www.magazine-decideurs.com/classements/propriete-industrielle-brevets-contentieux-classement-2019-cabinet-d-avocats-france?locale=fr'
+
+requests_headers = {'User-Agent':"(Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6"}
 
 req = requests.get(urlToScrap, headers = requests_headers)
 body = req.text
@@ -58,5 +60,5 @@ file_path = os.path.join(script_dir, saveAs)
 with open(file_path, 'w', encoding = 'utf-8') as outfile :
     data = csv.writer(outfile, delimiter = ';', lineterminator = '\n')
     data.writerow(['Prénom Nom', 'Email', 'Fonction', 'Nom du cabinet'])
-    for row in zip(*result):
+    for row in zip(*result) :
         data.writerow(row)
