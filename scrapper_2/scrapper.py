@@ -12,8 +12,13 @@ saveAs = 'Mailing_Avocats_PI_Brevet_Contentieux.xlsx'
 # Récupération du path du fichier
 script_dir = os.path.dirname(__file__)
 
+
+
 # URL à scrapper
-urlToScrap = 'https://www.magazine-decideurs.com/classements/propriete-industrielle-brevets-contentieux-classement-2019-cabinet-d-avocats-france?locale=fr'
+urlToScrap = 'https://www.magazine-decideurs.com/classements/propriete-industrielle-brevets-general-classement-2019-cabinet-de-conseils-en-pi-france?locale=fr'
+
+
+
 
 requests_headers = {'User-Agent':"(Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6"}
 
@@ -30,16 +35,21 @@ emails_office = []
 
 links = re.findall('<a href="(.+?(?=" target="_blank" class="rankingPlug__rowTeam__name customer"))', body)
 
+
 for link in links:
     url = 'https:' + link
-    request = requests.get(url, headers = requests_headers)
+    req = requests.get(url, headers = requests_headers)
     product = req.text
-    contact_list_match = re.search('<ul class="contact-list">(.+?)</ul>', product, flags = re.DOTALL)
+    pattern = '<ul class="contact-list">(.+?)</ul>'
+    contact_list_match = re.search(pattern, product, flags = re.DOTALL)
+
+
 
     # Si le contact est trouvé
     if contact_list_match :
         contact_list = contact_list_match.group(0)
         listItems = re.findall('<li>(.+?)</li>', contact_list, flags = re.DOTALL)
+
 
         for li in listItems:
             offices.extend(re.findall('<div class="infos">\n                <h1>(.+?(?=</h1>\n))',product))
@@ -57,12 +67,17 @@ for link in links:
             else :
                 jobs.extend('N')
 
+
+
+
 df = pd.DataFrame.from_dict({
   'Nom': names,
   'Email': emails_lawyer,
   'Fonction': jobs,
   'Nom du cabinet': offices
 })
+
+
 
 file_path_save = os.path.join(script_dir, saveAs)
 df.to_excel(file_path_save)
