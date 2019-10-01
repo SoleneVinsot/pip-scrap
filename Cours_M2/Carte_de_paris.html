@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a15dabd435ff4c85bf7a514768a89bea {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a15dabd435ff4c85bf7a514768a89bea" ></div>
+        
+</body>
+<script>    
+    
+            var map_a15dabd435ff4c85bf7a514768a89bea = L.map(
+                "map_a15dabd435ff4c85bf7a514768a89bea",
+                {
+                    center: [48.856578, 2.351828],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12.2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7e0036b50b174c338c72a18e9e9b1478 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a15dabd435ff4c85bf7a514768a89bea);
+        
+    
+            var marker_1f7f5f7612ec41c4b7dafdc5134c8489 = L.marker(
+                [48.8581, 2.2944],
+                {}
+            ).addTo(map_a15dabd435ff4c85bf7a514768a89bea);
+        
+    
+        var popup_10713264c2734de3a4805263441b606a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_720a2ba177cc4c61adf3a9f211a9794a = $(`<div id="html_720a2ba177cc4c61adf3a9f211a9794a" style="width: 100.0%; height: 100.0%;">Tour_Eiffel</div>`)[0];
+            popup_10713264c2734de3a4805263441b606a.setContent(html_720a2ba177cc4c61adf3a9f211a9794a);
+        
+
+        marker_1f7f5f7612ec41c4b7dafdc5134c8489.bindPopup(popup_10713264c2734de3a4805263441b606a)
+        ;
+
+        
+    
+    
+            var marker_0a6c2cfe6a014aa483afb6b7b16d0f95 = L.marker(
+                [48.8663871, 2.32346],
+                {}
+            ).addTo(map_a15dabd435ff4c85bf7a514768a89bea);
+        
+    
+        var popup_5e1df9417b0b4dcc8f99cd78b359fe16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a09d6dec78a848489b52d8ba69bbeaeb = $(`<div id="html_a09d6dec78a848489b52d8ba69bbeaeb" style="width: 100.0%; height: 100.0%;">Concorde</div>`)[0];
+            popup_5e1df9417b0b4dcc8f99cd78b359fe16.setContent(html_a09d6dec78a848489b52d8ba69bbeaeb);
+        
+
+        marker_0a6c2cfe6a014aa483afb6b7b16d0f95.bindPopup(popup_5e1df9417b0b4dcc8f99cd78b359fe16)
+        ;
+
+        
+    
+    
+            var marker_1c1cde58fef74fd3a7e5bbf46717c321 = L.marker(
+                [48.8737791, 2.2950372],
+                {}
+            ).addTo(map_a15dabd435ff4c85bf7a514768a89bea);
+        
+    
+        var popup_edf0989f67734897b43621a72f769776 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37ed34a646e74235a3f135c604b751cc = $(`<div id="html_37ed34a646e74235a3f135c604b751cc" style="width: 100.0%; height: 100.0%;">Arc_de_triomphe</div>`)[0];
+            popup_edf0989f67734897b43621a72f769776.setContent(html_37ed34a646e74235a3f135c604b751cc);
+        
+
+        marker_1c1cde58fef74fd3a7e5bbf46717c321.bindPopup(popup_edf0989f67734897b43621a72f769776)
+        ;
+
+        
+    
+</script>
