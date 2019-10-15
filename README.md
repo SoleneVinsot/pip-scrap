@@ -75,3 +75,5 @@ Démarrer le script `scrapper_AS.py` pour récupérer les données du site avis-
 Ensuite, démarrer le script `scrapper_total.py` pour récuperer les données collectées dans le premier site, extraire les informations et analyser les données.
 
 Cette étude à pour but de répondre à la problématique : "Quels sont les déterminants de la popularité d’un popularité d’un produit ?"
+
+L'analyse des données comprend différentes visualisation, analyses statistiques et économétriques.
