@@ -1,0 +1,1661 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<script>
+window.KiwiSizing = window.KiwiSizing === undefined ? {} : window.KiwiSizing;
+KiwiSizing.shop = "kings-fleet.myshopify.com";
+
+
+</script>
+
+  <!-- Basic page needs ================================================== -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  
+    <link rel="shortcut icon" href="//cdn.shopify.com/s/files/1/0097/8000/2875/files/Fichier_1PNG_32x32.png?v=1538637402" type="image/png" />
+  
+
+  <!-- Title and description ================================================== -->
+  <title>
+  Kings Fleet
+  </title>
+
+  
+  <meta name="description" content="Boutique en ligne d&#39;accessoires de mode de valeurs, soigneusement assemblés à Saint-Malo, à partir de cordons nautiques tressés en coton. Paiements sécurisés et envois suivis par Colissimo.">
+  
+
+  <!-- Helpers ================================================== -->
+  <!-- /snippets/social-meta-tags.liquid -->
+
+
+
+
+<meta property="og:site_name" content="Kings Fleet">
+<meta property="og:url" content="https://www.kingsfleet.fr/">
+<meta property="og:title" content="Kings Fleet">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Boutique en ligne d&#39;accessoires de mode de valeurs, soigneusement assemblés à Saint-Malo, à partir de cordons nautiques tressés en coton. Paiements sécurisés et envois suivis par Colissimo.">
+
+<meta property="og:image" content="http://cdn.shopify.com/s/files/1/0097/8000/2875/files/Kings_Fleet_-_Copy_1200x1200.jpg?v=1538497753">
+<meta property="og:image:secure_url" content="https://cdn.shopify.com/s/files/1/0097/8000/2875/files/Kings_Fleet_-_Copy_1200x1200.jpg?v=1538497753">
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kings Fleet">
+<meta name="twitter:description" content="Boutique en ligne d&#39;accessoires de mode de valeurs, soigneusement assemblés à Saint-Malo, à partir de cordons nautiques tressés en coton. Paiements sécurisés et envois suivis par Colissimo.">
+
+  <link rel="canonical" href="https://www.kingsfleet.fr/">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta name="theme-color" content="#304b8e">
+
+  <!-- CSS ================================================== -->
+  <link href="//cdn.shopify.com/s/files/1/0097/8000/2875/t/7/assets/timber.scss.css?16" rel="stylesheet" type="text/css" media="all" />
+  <link href="//cdn.shopify.com/s/files/1/0097/8000/2875/t/7/assets/theme.scss.css?16" rel="stylesheet" type="text/css" media="all" />
+
+  <!-- Sections ================================================== -->
+  <script>
+    window.theme = window.theme || {};
+    theme.strings = {
+      zoomClose: "Fermer (Esc)",
+      zoomPrev: "Précédent (flèche gauche)",
+      zoomNext: "Suivant (flèche droite)",
+      moneyFormat: "€{{amount_with_comma_separator}}",
+      addressError: "Nous ne trouvons pas cette adresse",
+      addressNoResults: "Aucun résultat pour cette adresse",
+      addressQueryLimit: "Vous avez dépassé la limite de Google utilisation de l'API. Envisager la mise à niveau à un \u003ca href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\"\u003erégime spécial\u003c\/a\u003e.",
+      authError: "Il y avait un problème authentifier votre compte Google Maps.",
+      cartEmpty: "Votre panier est vide.",
+      cartCookie: "Activer les cookies pour utiliser le panier",
+      cartSavings: "I18n Error: Missing interpolation value \"savings\" for \"Vous économisez {{ savings }}\""
+    };
+    theme.settings = {
+      cartType: "drawer",
+      gridType: "collage"
+    };
+  </script>
+
+  <script src="//cdn.shopify.com/s/files/1/0097/8000/2875/t/7/assets/jquery-2.2.3.min.js?16" type="text/javascript"></script>
+
+  <!--[if (gt IE 9)|!(IE)]><!--><script src="//cdn.shopify.com/s/files/1/0097/8000/2875/t/7/assets/lazysizes.min.js?16" async="async"></script><!--<![endif]-->
+  <!--[if lte IE 9]><script src="//cdn.shopify.com/s/files/1/0097/8000/2875/t/7/assets/lazysizes.min.js?16"></script><![endif]-->
+
+  <!--[if (gt IE 9)|!(IE)]><!--><script src="//cdn.shopify.com/s/files/1/0097/8000/2875/t/7/assets/theme.js?16" defer="defer"></script><!--<![endif]-->
+  <!--[if lte IE 9]><script src="//cdn.shopify.com/s/files/1/0097/8000/2875/t/7/assets/theme.js?16"></script><![endif]-->
+
+  <!-- Header hook for plugins ================================================== -->
+  <script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script><meta name="google-site-verification" content="z9VtrB4--hVQJN-TUnBS66uLftVbIF-uoDzrvwX-s3g">
+<meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/9780002875/digital_wallets/dialog">
+<meta name="shopify-checkout-api-token" content="6cca65a541397fbe3abded9875c46187">
+<meta id="in-context-paypal-metadata" data-shop-id="9780002875" data-venmo-supported="false" data-environment="production" data-locale="fr_FR" data-paypal-v4="true" data-currency="EUR">
+<style media="all">.additional-checkout-button{border:0 !important;border-radius:5px !important;display:inline-block;margin:0 0 10px;padding:0 24px !important;max-width:100%;min-width:150px !important;line-height:44px !important;text-align:center !important}.additional-checkout-button+.additional-checkout-button{margin-left:10px}.additional-checkout-button:last-child{margin-bottom:0}.additional-checkout-button span{font-size:14px !important}.additional-checkout-button img{display:inline-block !important;height:1.3em !important;margin:0 !important;vertical-align:middle !important;width:auto !important}@media (max-width: 500px){.additional-checkout-button{display:block;margin-left:0 !important;padding:0 10px !important;width:100%}}.additional-checkout-button--apple-pay{background-color:#000 !important;color:#fff !important;display:none;font-family:-apple-system, Helvetica Neue, sans-serif !important;min-width:150px !important;white-space:nowrap !important}.additional-checkout-button--apple-pay:hover,.additional-checkout-button--apple-pay:active,.additional-checkout-button--apple-pay:visited{color:#fff !important;text-decoration:none !important}.additional-checkout-button--apple-pay .additional-checkout-button__logo{background:-webkit-named-image(apple-pay-logo-white) center center no-repeat !important;background-size:auto 100% !important;display:inline-block !important;vertical-align:middle !important;width:3em !important;height:1.3em !important}@media (max-width: 500px){.additional-checkout-button--apple-pay{display:none}}.additional-checkout-button--google-pay{line-height:0 !important;padding:0 !important;border-radius:unset !important;width:80px !important}@media (max-width: 500px){.additional-checkout-button--google-pay{width:100% !important}}.gpay-iframe{height:44px !important;width:100%  !important;cursor:pointer;vertical-align:middle !important}.additional-checkout-button--paypal-express{background-color:#ffc439 !important}.additional-checkout-button--paypal,.additional-checkout-button--venmo{vertical-align:top;line-height:0 !important;padding:0 !important}.additional-checkout-button--amazon{background-color:#fad676 !important;position:relative !important}.additional-checkout-button--amazon .additional-checkout-button__logo{-webkit-transform:translateY(4px) !important;transform:translateY(4px) !important}.additional-checkout-button--amazon .alt-payment-list-amazon-button-image{max-height:none !important;opacity:0 !important;position:absolute !important;top:0 !important;left:0 !important;width:100% !important;height:100% !important}.additional-checkout-button-visually-hidden{border:0 !important;clip:rect(0, 0, 0, 0) !important;clip:rect(0 0 0 0) !important;width:1px !important;height:1px !important;margin:-2px !important;overflow:hidden !important;padding:0 !important;position:absolute !important}
+</style>
+<script id="apple-pay-shop-capabilities" type="application/json">{"shopId":9780002875,"countryCode":"FR","currencyCode":"EUR","merchantCapabilities":["supports3DS"],"merchantId":"gid:\/\/shopify\/Shop\/9780002875","merchantName":"Kings Fleet","requiredBillingContactFields":["postalAddress","email"],"requiredShippingContactFields":["postalAddress","email"],"shippingType":"shipping","supportedNetworks":["visa","masterCard","amex"],"total":{"type":"pending","label":"Kings Fleet","amount":"1.00"}}</script>
+<script id="shopify-features" type="application/json">{"accessToken":"6cca65a541397fbe3abded9875c46187","betas":[],"domain":"www.kingsfleet.fr","predictiveSearch":true,"shopId":9780002875,"smart_payment_buttons_url":"https:\/\/cdn.shopify.com\/shopifycloud\/payment-sheet\/assets\/latest\/spb.fr.js","dynamic_checkout_cart_url":"https:\/\/cdn.shopify.com\/shopifycloud\/payment-sheet\/assets\/latest\/dynamic-checkout-cart.fr.js"}</script>
+<script>var Shopify = Shopify || {};
+Shopify.shop = "kings-fleet.myshopify.com";
+Shopify.currency = {"active":"EUR","rate":"1.0"};
+Shopify.theme = {"name":"Brooklyn","id":40012447803,"theme_store_id":730,"role":"main"};
+Shopify.theme.handle = "null";
+Shopify.theme.style = {"id":null,"handle":null};</script>
+<script>(function() {
+  function asyncLoad() {
+    var urls = ["https:\/\/instafeed.nfcube.com\/cdn\/b209dedc1cf57e6bee6c3a450d77d90c.js?shop=kings-fleet.myshopify.com","https:\/\/kiwishopapps.com\/web\/js\/dist\/kiwiSizing\/plugin\/SizingPlugin.prod.js?v=142\u0026shop=kings-fleet.myshopify.com","\/\/productreviews.shopifycdn.com\/assets\/v4\/spr.js?shop=kings-fleet.myshopify.com","\/\/static.nexusmedia-ua.com\/slider\/externals\/frontend\/easyslide.js?shop=kings-fleet.myshopify.com"];
+    for (var i = 0; i < urls.length; i++) {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = urls[i];
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+    }
+  };
+  if(window.attachEvent) {
+    window.attachEvent('onload', asyncLoad);
+  } else {
+    window.addEventListener('load', asyncLoad, false);
+  }
+})();</script>
+<script id="__st">var __st={"a":9780002875,"offset":7200,"reqid":"e9c5ca93-04f4-4fe6-bef7-4e55b4493349","pageurl":"www.kingsfleet.fr\/?fbclid=IwAR1KWpKSCokcjUss-RV7_80bBBLI5geXFw3V4GtaOYrXRzw15d1nD4teoo0","u":"049ed3847e76","p":"home"};</script>
+<script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
+<script>window.ShopifyAnalytics = window.ShopifyAnalytics || {};
+window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
+window.ShopifyAnalytics.meta.currency = 'EUR';
+var meta = {"page":{"pageType":"home"}};
+for (var attr in meta) {
+  window.ShopifyAnalytics.meta[attr] = meta[attr];
+}</script>
+<script>window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
+  
+};
+</script>
+<script class="analytics">(window.gaDevIds=window.gaDevIds||[]).push('BwiEti');
+
+
+(function () {
+  var customDocumentWrite = function(content) {
+    var jquery = null;
+
+    if (window.jQuery) {
+      jquery = window.jQuery;
+    } else if (window.Checkout && window.Checkout.$) {
+      jquery = window.Checkout.$;
+    }
+
+    if (jquery) {
+      jquery('body').append(content);
+    }
+  };
+
+  var isDuplicatedThankYouPageView = function() {
+    return document.cookie.indexOf('loggedConversion=' + window.location.pathname) !== -1;
+  }
+
+  var setCookieIfThankYouPage = function() {
+    if (window.location.pathname.indexOf('/checkouts') !== -1 &&
+        window.location.pathname.indexOf('/thank_you') !== -1) {
+
+      var twoMonthsFromNow = new Date(Date.now());
+      twoMonthsFromNow.setMonth(twoMonthsFromNow.getMonth() + 2);
+
+      document.cookie = 'loggedConversion=' + window.location.pathname + '; expires=' + twoMonthsFromNow;
+    }
+  }
+
+  var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
+  if (trekkie.integrations) {
+    return;
+  }
+  trekkie.methods = [
+    'identify',
+    'page',
+    'ready',
+    'track',
+    'trackForm',
+    'trackLink'
+  ];
+  trekkie.factory = function(method) {
+    return function() {
+      var args = Array.prototype.slice.call(arguments);
+      args.unshift(method);
+      trekkie.push(args);
+      return trekkie;
+    };
+  };
+  for (var i = 0; i < trekkie.methods.length; i++) {
+    var key = trekkie.methods[i];
+    trekkie[key] = trekkie.factory(key);
+  }
+  trekkie.load = function(config) {
+    trekkie.config = config;
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.onerror = function(e) {
+      (new Image()).src = '//v.shopify.com/internal_errors/track?error=trekkie_load';
+    };
+    script.async = true;
+    script.src = 'https://cdn.shopify.com/s/javascripts/tricorder/trekkie.storefront.min.js?v=2017.09.05.1';
+    var first = document.getElementsByTagName('script')[0];
+    first.parentNode.insertBefore(script, first);
+  };
+  trekkie.load(
+    {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":9780002875,"isMerchantRequest":null,"themeId":40012447803,"themeCityHash":"3161982339347459394","contentLanguage":"fr","currency":"EUR"}},"Performance":{"navigationTimingApiMeasurementsEnabled":true,"navigationTimingApiMeasurementsSampleRate":1},"Google Analytics":{"trackingId":"UA-112364108-1","domain":"auto","siteSpeedSampleRate":"10","enhancedEcommerce":true,"doubleClick":true,"includeSearch":true},"Facebook Pixel":{"pixelIds":["760765834112626"],"agent":"plshopify1.2"},"Google Gtag Pixel":{"conversionId":"AW-782733476","eventLabels":[{"type":"page_view","action_label":"AW-782733476\/6z1yCM722YsBEKShnvUC"},{"type":"purchase","action_label":"AW-782733476\/Aw6gCNH22YsBEKShnvUC"},{"type":"view_item","action_label":"AW-782733476\/2SfsCNT22YsBEKShnvUC"},{"type":"add_to_cart","action_label":"AW-782733476\/HPS2CNf22YsBEKShnvUC"},{"type":"begin_checkout","action_label":"AW-782733476\/ojEcCNr22YsBEKShnvUC"},{"type":"search","action_label":"AW-782733476\/jXpFCN322YsBEKShnvUC"},{"type":"add_payment_info","action_label":"AW-782733476\/LpbLCOD22YsBEKShnvUC"}],"targetCountry":"FR"},"Session Attribution":{}}
+  );
+
+  var loaded = false;
+  trekkie.ready(function() {
+    if (loaded) return;
+    loaded = true;
+
+    window.ShopifyAnalytics.lib = window.trekkie;
+    
+      ga('require', 'linker');
+      function addListener(element, type, callback) {
+        if (element.addEventListener) {
+          element.addEventListener(type, callback);
+        }
+        else if (element.attachEvent) {
+          element.attachEvent('on' + type, callback);
+        }
+      }
+      function decorate(event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement;
+        if (target && (target.getAttribute('action') || target.getAttribute('href'))) {
+          ga(function (tracker) {
+            var linkerParam = tracker.get('linkerParam');
+            document.cookie = '_shopify_ga=' + linkerParam + '; ' + 'path=/';
+          });
+        }
+      }
+      addListener(window, 'load', function(){
+        for (var i=0; i < document.forms.length; i++) {
+          var action = document.forms[i].getAttribute('action');
+          if(action && action.indexOf('/cart') >= 0) {
+            addListener(document.forms[i], 'submit', decorate);
+          }
+        }
+        for (var i=0; i < document.links.length; i++) {
+          var href = document.links[i].getAttribute('href');
+          if(href && href.indexOf('/checkout') >= 0) {
+            addListener(document.links[i], 'click', decorate);
+          }
+        }
+      });
+    
+
+    var originalDocumentWrite = document.write;
+    document.write = customDocumentWrite;
+    try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch(error) {};
+    document.write = originalDocumentWrite;
+      (function () {
+        if (window.BOOMR && (window.BOOMR.version || window.BOOMR.snippetExecuted)) {
+          return;
+        }
+        window.BOOMR = window.BOOMR || {};
+        window.BOOMR.snippetStart = new Date().getTime();
+        window.BOOMR.snippetExecuted = true;
+        window.BOOMR.snippetVersion = 12;
+        window.BOOMR.shopId = 9780002875;
+        window.BOOMR.themeId = 40012447803;
+        window.BOOMR.url =
+          "https://cdn.shopify.com/shopifycloud/boomerang/boomerang-latest.min.js";
+        var where = document.currentScript || document.getElementsByTagName("script")[0];
+        var promoted = false;
+        var LOADER_TIMEOUT = 3000;
+        function promote() {
+          if (promoted) {
+            return;
+          }
+          var script = document.createElement("script");
+          script.id = "boomr-scr-as";
+          script.src = window.BOOMR.url;
+          script.async = true;
+          where.parentNode.appendChild(script);
+          promoted = true;
+        }
+        function iframeLoader(wasFallback) {
+          promoted = true;
+          var dom, bootstrap, iframe, iframeStyle;
+          var doc = document;
+          var win = window;
+          window.BOOMR.snippetMethod = wasFallback ? "if" : "i";
+          bootstrap = function(parent, scriptId) {
+            var script = doc.createElement("script");
+            script.id = scriptId || "boomr-if-as";
+            script.src = window.BOOMR.url;
+            BOOMR_lstart = new Date().getTime();
+            parent = parent || doc.body;
+            parent.appendChild(script);
+          };
+          if (!window.addEventListener && window.attachEvent && navigator.userAgent.match(/MSIE [67]./)) {
+            window.BOOMR.snippetMethod = "s";
+            bootstrap(where.parentNode, "boomr-async");
+            return;
+          }
+          iframe = document.createElement("IFRAME");
+          iframe.src = "about:blank";
+          iframe.title = "";
+          iframe.role = "presentation";
+          iframe.loading = "eager";
+          iframeStyle = (iframe.frameElement || iframe).style;
+          iframeStyle.width = 0;
+          iframeStyle.height = 0;
+          iframeStyle.border = 0;
+          iframeStyle.display = "none";
+          where.parentNode.appendChild(iframe);
+          try {
+            win = iframe.contentWindow;
+            doc = win.document.open();
+          } catch (e) {
+            dom = document.domain;
+            iframe.src = "javascript:var d=document.open();d.domain='" + dom + "';void(0);";
+            win = iframe.contentWindow;
+            doc = win.document.open();
+          }
+          if (dom) {
+            doc._boomrl = function() {
+              this.domain = dom;
+              bootstrap();
+            };
+            doc.write("<body onload='document._boomrl();'>");
+          } else {
+            win._boomrl = function() {
+              bootstrap();
+            };
+            if (win.addEventListener) {
+              win.addEventListener("load", win._boomrl, false);
+            } else if (win.attachEvent) {
+              win.attachEvent("onload", win._boomrl);
+            }
+          }
+          doc.close();
+        }
+        var link = document.createElement("link");
+        if (link.relList &&
+          typeof link.relList.supports === "function" &&
+          link.relList.supports("preload") &&
+          ("as" in link)) {
+          window.BOOMR.snippetMethod = "p";
+          link.href = window.BOOMR.url;
+          link.rel = "preload";
+          link.as = "script";
+          link.addEventListener("load", promote);
+          link.addEventListener("error", function() {
+            iframeLoader(true);
+          });
+          setTimeout(function() {
+            if (!promoted) {
+              iframeLoader(true);
+            }
+          }, LOADER_TIMEOUT);
+          BOOMR_lstart = new Date().getTime();
+          where.parentNode.appendChild(link);
+        } else {
+          iframeLoader(false);
+        }
+        function boomerangSaveLoadTime(e) {
+          window.BOOMR_onload = (e && e.timeStamp) || new Date().getTime();
+        }
+        if (window.addEventListener) {
+          window.addEventListener("load", boomerangSaveLoadTime, false);
+        } else if (window.attachEvent) {
+          window.attachEvent("onload", boomerangSaveLoadTime);
+        }
+        if (document.addEventListener) {
+          document.addEventListener("onBoomerangLoaded", function(e) {
+            e.detail.BOOMR.init({});
+            e.detail.BOOMR.t_end = new Date().getTime();
+          });
+        } else if (document.attachEvent) {
+          document.attachEvent("onpropertychange", function(e) {
+            if (!e) e=event;
+            if (e.propertyName === "onBoomerangLoaded") {
+              e.detail.BOOMR.init({});
+              e.detail.BOOMR.t_end = new Date().getTime();
+            }
+          });
+        }
+      })();
+    
+
+    if (!isDuplicatedThankYouPageView()) {
+      setCookieIfThankYouPage();
+      
+        window.ShopifyAnalytics.lib.page(
+          null,
+          {"pageType":"home"}
+        );
+      
+      
+    }
+  });
+
+  
+      var eventsListenerScript = document.createElement('script');
+      eventsListenerScript.async = true;
+      eventsListenerScript.src = "//cdn.shopify.com/s/assets/shop_events_listener-17b815ecd2d75d5d3ec1b7a2a59daadee017bd9097e9b4629937b0a78cf0ecaa.js";
+      document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
+    
+})();</script>
+<script integrity="sha256-2P0MRbAT3p4Oh8olbuAvRl44EikliFx94nnWg4+R+mo=" defer="defer" src="//cdn.shopify.com/s/assets/storefront/features-d8fd0c45b013de9e0e87ca256ee02f465e38122925885c7de279d6838f91fa6a.js" crossorigin="anonymous"></script>
+<script defer="defer" src="//cdn.shopify.com/s/assets/themes_support/ga_urchin_forms-99e991855b3d8ddc69e625c68ab0579dd9927b611c2ec4943d396c72e3af0849.js"></script>
+
+
+<style id="shopify-dynamic-checkout-cart">@media screen and (min-width: 750px) {
+  #dynamic-checkout-cart {
+    min-height: 50px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #dynamic-checkout-cart {
+    min-height: 120px;
+  }
+}
+</style>
+<script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
+  <!-- /snippets/oldIE-js.liquid -->
+
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js" type="text/javascript"></script>
+<![endif]-->
+
+
+<!--[if (lte IE 9) ]><script src="//cdn.shopify.com/s/files/1/0097/8000/2875/t/7/assets/match-media.min.js?16" type="text/javascript"></script><![endif]-->
+
+
+  <script src="//cdn.shopify.com/s/files/1/0097/8000/2875/t/7/assets/modernizr.min.js?16" type="text/javascript"></script>
+
+  
+  
+
+</head>
+
+
+<body id="kings-fleet" class="template-index">
+
+  <div id="shopify-section-header" class="shopify-section"><style>
+  .site-header__logo img {
+    max-width: 80px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .site-header__logo img {
+      max-width: 100%;
+    }
+  }
+</style>
+
+
+<div data-section-id="header" data-section-type="header-section" data-template="index">
+  <div id="NavDrawer" class="drawer drawer--left">
+      <div class="drawer__inner drawer-left__inner">
+
+    
+
+    <ul class="mobile-nav">
+      
+        
+
+          <li class="mobile-nav__item">
+            <a
+              href="/"
+              class="mobile-nav__link"
+              >
+                Accueil
+            </a>
+          </li>
+
+        
+      
+        
+
+          <li class="mobile-nav__item">
+            <a
+              href="/collections/a-flot"
+              class="mobile-nav__link"
+              >
+                Catalogue
+            </a>
+          </li>
+
+        
+      
+        
+
+          <li class="mobile-nav__item">
+            <a
+              href="/pages/guide-des-tailles"
+              class="mobile-nav__link"
+              >
+                Guide des tailles
+            </a>
+          </li>
+
+        
+      
+        
+
+          <li class="mobile-nav__item">
+            <a
+              href="/pages/a-propos"
+              class="mobile-nav__link"
+              >
+                Notre histoire
+            </a>
+          </li>
+
+        
+      
+      
+      <li class="mobile-nav__spacer"></li>
+
+      
+      
+        
+          <li class="mobile-nav__item mobile-nav__item--secondary">
+            <a href="/account/login" id="customer_login_link">Se connecter</a>
+          </li>
+          <li class="mobile-nav__item mobile-nav__item--secondary">
+            <a href="/account/register" id="customer_register_link">Créer un compte</a>
+          </li>
+        
+      
+      
+        <li class="mobile-nav__item mobile-nav__item--secondary"><a href="/pages/conditions-generales-de-vente">Conditions générales de vente</a></li>
+      
+        <li class="mobile-nav__item mobile-nav__item--secondary"><a href="/pages/mentions-legales">Mentions légales</a></li>
+      
+        <li class="mobile-nav__item mobile-nav__item--secondary"><a href="/pages/protection-de-la-marque">Protection de la marque</a></li>
+      
+    </ul>
+    <!-- //mobile-nav -->
+  </div>
+
+
+  </div>
+  <div class="header-container drawer__header-container">
+    <div class="header-wrapper">
+      
+
+      <header class="site-header" role="banner">
+        <div class="wrapper">
+          <div class="grid--full grid--table">
+            <div class="grid__item large--hide large--one-sixth one-quarter">
+              <div class="site-nav--open site-nav--mobile">
+                <button type="button" class="icon-fallback-text site-nav__link site-nav__link--burger js-drawer-open-button-left" aria-controls="NavDrawer">
+                  <span class="burger-icon burger-icon--top"></span>
+                  <span class="burger-icon burger-icon--mid"></span>
+                  <span class="burger-icon burger-icon--bottom"></span>
+                  <span class="fallback-text">Navigation</span>
+                </button>
+              </div>
+            </div>
+            <div class="grid__item large--one-third medium-down--one-half">
+              
+              
+                <h1 class="site-header__logo large--left" itemscope itemtype="http://schema.org/Organization">
+              
+                
+
+                
+                  <a href="/" itemprop="url" class="site-header__logo-link">
+                    <img src="//cdn.shopify.com/s/files/1/0097/8000/2875/files/Fichier_1PNG_cb117115-44f7-4691-ab71-2eb8f2cee535_80x.png?v=1538855502"
+                    srcset="//cdn.shopify.com/s/files/1/0097/8000/2875/files/Fichier_1PNG_cb117115-44f7-4691-ab71-2eb8f2cee535_80x.png?v=1538855502 1x, //cdn.shopify.com/s/files/1/0097/8000/2875/files/Fichier_1PNG_cb117115-44f7-4691-ab71-2eb8f2cee535_80x@2x.png?v=1538855502 2x"
+                    alt="Kings Fleet"
+                    itemprop="logo">
+                  </a>
+                
+              
+                </h1>
+              
+            </div>
+            <nav class="grid__item large--two-thirds large--text-right medium-down--hide" role="navigation">
+              
+              <!-- begin site-nav -->
+              <ul class="site-nav" id="AccessibleNav">
+                
+                  
+                    <li class="site-nav__item site-nav--active">
+                      <a
+                        href="/"
+                        class="site-nav__link"
+                        data-meganav-type="child"
+                        >
+                          Accueil
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="site-nav__item">
+                      <a
+                        href="/collections/a-flot"
+                        class="site-nav__link"
+                        data-meganav-type="child"
+                        >
+                          Catalogue
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="site-nav__item">
+                      <a
+                        href="/pages/guide-des-tailles"
+                        class="site-nav__link"
+                        data-meganav-type="child"
+                        >
+                          Guide des tailles
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="site-nav__item">
+                      <a
+                        href="/pages/a-propos"
+                        class="site-nav__link"
+                        data-meganav-type="child"
+                        >
+                          Notre histoire
+                      </a>
+                    </li>
+                  
+                
+
+                
+                
+                  <li class="site-nav__item site-nav__expanded-item site-nav__item--compressed">
+                    <a class="site-nav__link site-nav__link--icon" href="/account">
+                      <span class="icon-fallback-text">
+                        <span class="icon icon-customer" aria-hidden="true"></span>
+                        <span class="fallback-text">
+                          
+                            Se connecter
+                          
+                        </span>
+                      </span>
+                    </a>
+                  </li>
+                
+
+                
+                  
+                  
+                  <li class="site-nav__item site-nav__item--compressed">
+                    <a href="/search" class="site-nav__link site-nav__link--icon js-toggle-search-modal" data-mfp-src="#SearchModal">
+                      <span class="icon-fallback-text">
+                        <span class="icon icon-search" aria-hidden="true"></span>
+                        <span class="fallback-text">Rechercher</span>
+                      </span>
+                    </a>
+                  </li>
+                
+
+                <li class="site-nav__item site-nav__item--compressed">
+                  <a href="/cart" class="site-nav__link site-nav__link--icon cart-link js-drawer-open-button-right" aria-controls="CartDrawer">
+                    <span class="icon-fallback-text">
+                      <span class="icon icon-cart" aria-hidden="true"></span>
+                      <span class="fallback-text">Panier</span>
+                    </span>
+                    <span class="cart-link__bubble"></span>
+                  </a>
+                </li>
+
+              </ul>
+              <!-- //site-nav -->
+            </nav>
+            <div class="grid__item large--hide one-quarter">
+              <div class="site-nav--mobile text-right">
+                <a href="/cart" class="site-nav__link cart-link js-drawer-open-button-right" aria-controls="CartDrawer">
+                  <span class="icon-fallback-text">
+                    <span class="icon icon-cart" aria-hidden="true"></span>
+                    <span class="fallback-text">Panier</span>
+                  </span>
+                  <span class="cart-link__bubble"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </header>
+    </div>
+  </div>
+</div>
+
+
+
+
+</div>
+
+  <div id="CartDrawer" class="drawer drawer--right drawer--has-fixed-footer">
+    <div class="drawer__fixed-header">
+      <div class="drawer__header">
+        <div class="drawer__title">Panier</div>
+        <div class="drawer__close">
+          <button type="button" class="icon-fallback-text drawer__close-button js-drawer-close">
+            <span class="icon icon-x" aria-hidden="true"></span>
+            <span class="fallback-text">Fermer le panier</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="drawer__inner">
+      <div id="CartContainer" class="drawer__cart"></div>
+    </div>
+  </div>
+
+  <div id="PageContainer" class="page-container">
+
+    
+      <div id="shopify-section-slideshow" class="shopify-section">
+
+
+
+
+<style>
+  .hero-slideshow.slick-slider .slick-dots li.slick-active button:before{
+    background: #304b8e;
+    border-color: transparent;
+  }
+  .hero-slideshow.slick-slider .slick-dots li button:before{
+    background: transparent;
+    border-color: #304b8e;
+  }
+</style>
+
+
+  
+  <style>
+    
+      .site-nav__link, .site-header__logo a, .site-nav__link:hover, .site-header__logo a:hover {
+        color: #304b8e;
+      }
+      .burger-icon {
+        background: #304b8e;
+      }
+    
+  </style>
+
+
+
+<div data-section-id="slideshow" data-section-type="slideshow-section">
+  
+    <div class="hero-slideshow hero hero--full-height hero--first" id="Hero" data-fullscreen="true"data-parallax="true" data-autoplay="true" data-autoplayspeed="5000">
+      
+
+          <div class="hero__slide slide--slideshow-0" data-color="#304b8e" style="color: #304b8e;" >
+            
+              
+                <noscript>
+                  
+                    <div class="hero__image-no-js" style="background-image: url('//cdn.shopify.com/s/files/1/0097/8000/2875/files/Kings_Fleet_-_Copy_2048x.jpg?v=1538497753');"></div>
+                  
+                </noscript>
+                
+                <img class="hero__image hero__image--slideshow-0 lazyload fade-in"
+                  
+                    src="//cdn.shopify.com/s/files/1/0097/8000/2875/files/Kings_Fleet_-_Copy_300x.jpg?v=1538497753"
+                  
+                  data-src="//cdn.shopify.com/s/files/1/0097/8000/2875/files/Kings_Fleet_-_Copy_{width}x.jpg?v=1538497753"
+                  data-widths="[540, 720, 900, 1080, 1296, 1512, 1728, 1944, 2048, 4472]"
+                  data-aspectratio="1.5042944785276073"
+                  data-sizes="auto"
+                  data-parent-fit="cover"
+                  alt="">
+              
+            
+
+            
+            <style>
+              .slide--slideshow-0 .slideshow__overlay:before {
+                background-color: #3d4246;
+                opacity: 0.0;
+              }
+            </style>
+            <div class="hero__text-wrap slideshow__overlay">
+              <div class="hero__text-align">
+                <div class="hero__text-content">
+                  
+                  
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+      
+
+          <div class="hero__slide slide--slideshow-1" data-color="#304b8e" style="color: #304b8e;" >
+            
+              
+                <noscript>
+                  
+                </noscript>
+                
+                <img class="hero__image hero__image--slideshow-1 lazyload fade-in lazypreload"
+                  
+                  data-src="//cdn.shopify.com/s/files/1/0097/8000/2875/files/IMG_5549_{width}x.jpg?v=1538416044"
+                  data-widths="[540, 720, 900, 1080, 1296, 1512, 1728, 1944, 2048, 4472]"
+                  data-aspectratio="1.3052662037037037"
+                  data-sizes="auto"
+                  data-parent-fit="cover"
+                  alt="">
+              
+            
+
+            
+            <style>
+              .slide--slideshow-1 .slideshow__overlay:before {
+                background-color: #3d4246;
+                opacity: 0.01;
+              }
+            </style>
+            <div class="hero__text-wrap slideshow__overlay">
+              <div class="hero__text-align">
+                <div class="hero__text-content">
+                  
+                  
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+      
+    </div>
+  
+</div>
+
+
+
+
+</div>
+    
+
+    <main class="main-content" role="main">
+      
+        <!-- /templates/index.liquid -->
+
+<div class="index-sections">
+  <!-- BEGIN content_for_index --><div id="shopify-section-featured-products" class="shopify-section"><div id="CollectionSection" data-section-id="featured-products" data-section-type="collection-template" data-grid-type="collage">
+  <div class="wrapper">
+    
+
+    <div class="grid grid-collage">
+
+      
+
+      
+
+        
+
+          
+          
+          
+          
+
+          
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+<!-- /snippets/product-grid-item.liquid -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="grid__item grid-product one-whole medium--one-half large--one-half">
+  <div class="grid-product__wrapper">
+    <div class="grid-product__image-wrapper">
+      <a class="grid-product__image-link" href="/products/le-malouin">
+        
+          <style>
+  
+
+  @media screen and (min-width: 591px) { 
+    .ProductImage-7350648471611 {
+      max-width: 360px;
+      max-height: 275.5980861244019px;
+    }
+    #ProductImageWrapper-7350648471611 {
+      max-width: 360px;
+    }
+   } 
+
+  
+    
+    @media screen and (max-width: 590px) {
+      .ProductImage-7350648471611 {
+        max-width: 590px;
+      }
+      #ProductImageWrapper-7350648471611 {
+        max-width: 590px;
+      }
+    }
+  
+</style>
+
+          <div id="ProductImageWrapper-7350648471611" class="product--wrapper">
+            <div style="padding-top:76.55502392344498%;">
+              <img class="product--image lazyload ProductImage-7350648471611"
+                   src="//cdn.shopify.com/s/files/1/0097/8000/2875/products/custom_resized_a1a89d41-42fd-4d20-8e51-59ce3bb3036e_150x150.jpg?v=1549914897"
+                   data-src="//cdn.shopify.com/s/files/1/0097/8000/2875/products/custom_resized_a1a89d41-42fd-4d20-8e51-59ce3bb3036e_{width}x.jpg?v=1549914897"
+                   data-widths="[180, 370, 590, 740, 900, 1080, 1296, 1512, 1728, 2048]"
+                   data-aspectratio="1.30625"
+                   data-sizes="auto"
+                   alt="Le Malouin">
+            </div>
+          </div>
+          <noscript>
+            <img class="grid-product__image" src="//cdn.shopify.com/s/files/1/0097/8000/2875/products/custom_resized_a1a89d41-42fd-4d20-8e51-59ce3bb3036e_1024x.jpg?v=1549914897" alt="Le Malouin">
+          </noscript>
+        
+      </a>
+      
+        <div class="grid-product__on-sale">
+          
+          <p>Économisez<br />€9,91</p>
+        </div>
+      
+    </div>
+
+    <a href="/products/le-malouin" class="grid-product__meta">
+      <span class="grid-product__title">Le Malouin</span>
+      <span class="grid-product__price-wrap">
+        <span class="long-dash">—</span>
+        <span class="grid-product__price">
+          
+            <span class="visually-hidden">Prix réduit</span>
+          
+          
+            €19,99
+          
+        </span>
+      </span>
+      
+    </a>
+  </div>
+</div>
+
+
+  
+  
+
+  
+  
+
+
+          
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+<!-- /snippets/product-grid-item.liquid -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="grid__item grid-product one-whole medium--one-half large--one-half">
+  <div class="grid-product__wrapper">
+    <div class="grid-product__image-wrapper">
+      <a class="grid-product__image-link" href="/products/ladmirable">
+        
+          <style>
+  
+
+  @media screen and (min-width: 591px) { 
+    .ProductImage-7350636675131 {
+      max-width: 360px;
+      max-height: 267.03463813010416px;
+    }
+    #ProductImageWrapper-7350636675131 {
+      max-width: 360px;
+    }
+   } 
+
+  
+    
+    @media screen and (max-width: 590px) {
+      .ProductImage-7350636675131 {
+        max-width: 590px;
+      }
+      #ProductImageWrapper-7350636675131 {
+        max-width: 590px;
+      }
+    }
+  
+</style>
+
+          <div id="ProductImageWrapper-7350636675131" class="product--wrapper">
+            <div style="padding-top:74.17628836947338%;">
+              <img class="product--image lazyload ProductImage-7350636675131"
+                   src="//cdn.shopify.com/s/files/1/0097/8000/2875/products/custom_resized_3c85177e-4bac-4ef7-b763-342cb2150165_150x150.jpg?v=1549914815"
+                   data-src="//cdn.shopify.com/s/files/1/0097/8000/2875/products/custom_resized_3c85177e-4bac-4ef7-b763-342cb2150165_{width}x.jpg?v=1549914815"
+                   data-widths="[180, 370, 590, 740, 900, 1080, 1296, 1512, 1728, 2048]"
+                   data-aspectratio="1.3481397114654519"
+                   data-sizes="auto"
+                   alt="L&#39;Admirable">
+            </div>
+          </div>
+          <noscript>
+            <img class="grid-product__image" src="//cdn.shopify.com/s/files/1/0097/8000/2875/products/custom_resized_3c85177e-4bac-4ef7-b763-342cb2150165_1024x.jpg?v=1549914815" alt="L&#39;Admirable">
+          </noscript>
+        
+      </a>
+      
+        <div class="grid-product__on-sale">
+          
+          <p>Économisez<br />€9,91</p>
+        </div>
+      
+    </div>
+
+    <a href="/products/ladmirable" class="grid-product__meta">
+      <span class="grid-product__title">L'Admirable</span>
+      <span class="grid-product__price-wrap">
+        <span class="long-dash">—</span>
+        <span class="grid-product__price">
+          
+            <span class="visually-hidden">Prix réduit</span>
+          
+          
+            €19,99
+          
+        </span>
+      </span>
+      
+    </a>
+  </div>
+</div>
+
+
+  
+  
+    <div class="grid__row-separator"></div>
+  
+
+  
+  
+
+
+          
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+<!-- /snippets/product-grid-item.liquid -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="grid__item grid-product one-whole medium--one-half large--one-half">
+  <div class="grid-product__wrapper">
+    <div class="grid-product__image-wrapper">
+      <a class="grid-product__image-link" href="/products/fleur-de-lys">
+        
+          <style>
+  
+
+  @media screen and (min-width: 591px) { 
+    .ProductImage-7350643294267 {
+      max-width: 360px;
+      max-height: 270.8321658727935px;
+    }
+    #ProductImageWrapper-7350643294267 {
+      max-width: 360px;
+    }
+   } 
+
+  
+    
+    @media screen and (max-width: 590px) {
+      .ProductImage-7350643294267 {
+        max-width: 590px;
+      }
+      #ProductImageWrapper-7350643294267 {
+        max-width: 590px;
+      }
+    }
+  
+</style>
+
+          <div id="ProductImageWrapper-7350643294267" class="product--wrapper">
+            <div style="padding-top:75.23115718688707%;">
+              <img class="product--image lazyload ProductImage-7350643294267"
+                   src="//cdn.shopify.com/s/files/1/0097/8000/2875/products/custom_resized_e8c7df53-020d-4caf-b2d1-cc0a3f8037cb_150x150.jpg?v=1549914848"
+                   data-src="//cdn.shopify.com/s/files/1/0097/8000/2875/products/custom_resized_e8c7df53-020d-4caf-b2d1-cc0a3f8037cb_{width}x.jpg?v=1549914848"
+                   data-widths="[180, 370, 590, 740, 900, 1080, 1296, 1512, 1728, 2048]"
+                   data-aspectratio="1.3292364990689014"
+                   data-sizes="auto"
+                   alt="Fleur de Lys">
+            </div>
+          </div>
+          <noscript>
+            <img class="grid-product__image" src="//cdn.shopify.com/s/files/1/0097/8000/2875/products/custom_resized_e8c7df53-020d-4caf-b2d1-cc0a3f8037cb_1024x.jpg?v=1549914848" alt="Fleur de Lys">
+          </noscript>
+        
+      </a>
+      
+        <div class="grid-product__on-sale">
+          
+          <p>Économisez<br />€9,91</p>
+        </div>
+      
+    </div>
+
+    <a href="/products/fleur-de-lys" class="grid-product__meta">
+      <span class="grid-product__title">Fleur de Lys</span>
+      <span class="grid-product__price-wrap">
+        <span class="long-dash">—</span>
+        <span class="grid-product__price">
+          
+            <span class="visually-hidden">Prix réduit</span>
+          
+          
+            €19,99
+          
+        </span>
+      </span>
+      
+    </a>
+  </div>
+</div>
+
+
+  
+  
+
+  
+  
+
+
+          
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+<!-- /snippets/product-grid-item.liquid -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="grid__item grid-product one-whole medium--one-half large--one-half">
+  <div class="grid-product__wrapper">
+    <div class="grid-product__image-wrapper">
+      <a class="grid-product__image-link" href="/products/letoile-de-france">
+        
+          <style>
+  
+
+  @media screen and (min-width: 591px) { 
+    .ProductImage-7350645293115 {
+      max-width: 360px;
+      max-height: 292.8813559322034px;
+    }
+    #ProductImageWrapper-7350645293115 {
+      max-width: 360px;
+    }
+   } 
+
+  
+    
+    @media screen and (max-width: 590px) {
+      .ProductImage-7350645293115 {
+        max-width: 590px;
+      }
+      #ProductImageWrapper-7350645293115 {
+        max-width: 590px;
+      }
+    }
+  
+</style>
+
+          <div id="ProductImageWrapper-7350645293115" class="product--wrapper">
+            <div style="padding-top:81.35593220338983%;">
+              <img class="product--image lazyload ProductImage-7350645293115"
+                   src="//cdn.shopify.com/s/files/1/0097/8000/2875/products/custom_resized_e2893d24-1eec-44ad-98b1-c55475e78373_150x150.jpg?v=1549914865"
+                   data-src="//cdn.shopify.com/s/files/1/0097/8000/2875/products/custom_resized_e2893d24-1eec-44ad-98b1-c55475e78373_{width}x.jpg?v=1549914865"
+                   data-widths="[180, 370, 590, 740, 900, 1080, 1296, 1512, 1728, 2048]"
+                   data-aspectratio="1.2291666666666667"
+                   data-sizes="auto"
+                   alt="L&#39;Etoile de France">
+            </div>
+          </div>
+          <noscript>
+            <img class="grid-product__image" src="//cdn.shopify.com/s/files/1/0097/8000/2875/products/custom_resized_e2893d24-1eec-44ad-98b1-c55475e78373_1024x.jpg?v=1549914865" alt="L&#39;Etoile de France">
+          </noscript>
+        
+      </a>
+      
+        <div class="grid-product__on-sale">
+          
+          <p>Économisez<br />€9,91</p>
+        </div>
+      
+    </div>
+
+    <a href="/products/letoile-de-france" class="grid-product__meta">
+      <span class="grid-product__title">L'Etoile de France</span>
+      <span class="grid-product__price-wrap">
+        <span class="long-dash">—</span>
+        <span class="grid-product__price">
+          
+            <span class="visually-hidden">Prix réduit</span>
+          
+          
+            €19,99
+          
+        </span>
+      </span>
+      
+    </a>
+  </div>
+</div>
+
+
+  
+  
+
+  
+  
+
+
+          
+
+        
+
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+</div><div id="shopify-section-1539105580277" class="shopify-section"><div class="wrapper">
+  <div class="custom-content">
+  
+    
+    <div class="custom__item one-whole align--top-middle" >
+      <div class="custom__item-inner custom__item-inner--html">
+        
+            
+              <div class="rte" data-section-id="1539105580277" data-section-type="featured-content-section">
+                <div id="insta-feed"></div>
+              </div>
+            
+        
+      </div>
+    </div>
+  
+  
+  </div>
+</div>
+
+
+
+
+</div><!-- END content_for_index -->
+</div>
+
+      
+    </main>
+
+    <hr class="hr--large">
+
+    <div id="shopify-section-footer" class="shopify-section"><footer class="site-footer small--text-center" role="contentinfo">
+  <div class="wrapper">
+
+    <div class="grid-uniform">
+
+      
+      
+
+      
+      
+
+      
+      
+      
+
+      
+      
+
+      
+
+      
+        <div class="grid__item one-third small--one-whole">
+          <ul class="no-bullets site-footer__linklist">
+            
+
+      
+      
+
+              <li><a href="/pages/conditions-generales-de-vente">Conditions générales de vente</a></li>
+
+            
+
+      
+      
+
+              <li><a href="/pages/mentions-legales">Mentions légales</a></li>
+
+            
+
+      
+      
+
+              <li><a href="/pages/protection-de-la-marque">Protection de la marque</a></li>
+
+            
+          </ul>
+        </div>
+      
+
+      
+        <div class="grid__item one-third small--one-whole">
+            <ul class="no-bullets social-icons">
+              
+                <li>
+                  <a href="https://www.facebook.com/Kingsfleetstore" title="Kings Fleet sur Facebook">
+                    <span class="icon icon-facebook" aria-hidden="true"></span>
+                    Facebook
+                  </a>
+                </li>
+              
+              
+              
+              
+                <li>
+                  <a href="https://www.instagram.com/kings.fleet/" title="Kings Fleet sur Instagram">
+                    <span class="icon icon-instagram" aria-hidden="true"></span>
+                    Instagram
+                  </a>
+                </li>
+              
+              
+              
+              
+              
+              
+              
+            </ul>
+        </div>
+      
+
+      <div class="grid__item one-third small--one-whole large--text-right">
+        <p>&copy; 2019, <a href="/" title="">Kings Fleet</a><br></p><span class="visually-hidden">Méthodes de paiement</span>
+              <ul class="inline-list payment-icons"><li>
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 38 24" width="38" height="24" aria-labelledby="pi-american_express"><title id="pi-american_express">American Express</title><g fill="none"><path fill="#000" d="M35,0 L3,0 C1.3,0 0,1.3 0,3 L0,21 C0,22.7 1.4,24 3,24 L35,24 C36.7,24 38,22.7 38,21 L38,3 C38,1.3 36.6,0 35,0 Z" opacity=".07"/><path fill="#006FCF" d="M35,1 C36.1,1 37,1.9 37,3 L37,21 C37,22.1 36.1,23 35,23 L3,23 C1.9,23 1,22.1 1,21 L1,3 C1,1.9 1.9,1 3,1 L35,1"/><path fill="#FFF" d="M8.971,10.268 L9.745,12.144 L8.203,12.144 L8.971,10.268 Z M25.046,10.346 L22.069,10.346 L22.069,11.173 L24.998,11.173 L24.998,12.412 L22.075,12.412 L22.075,13.334 L25.052,13.334 L25.052,14.073 L27.129,11.828 L25.052,9.488 L25.046,10.346 L25.046,10.346 Z M10.983,8.006 L14.978,8.006 L15.865,9.941 L16.687,8 L27.057,8 L28.135,9.19 L29.25,8 L34.013,8 L30.494,11.852 L33.977,15.68 L29.143,15.68 L28.065,14.49 L26.94,15.68 L10.03,15.68 L9.536,14.49 L8.406,14.49 L7.911,15.68 L4,15.68 L7.286,8 L10.716,8 L10.983,8.006 Z M19.646,9.084 L17.407,9.084 L15.907,12.62 L14.282,9.084 L12.06,9.084 L12.06,13.894 L10,9.084 L8.007,9.084 L5.625,14.596 L7.18,14.596 L7.674,13.406 L10.27,13.406 L10.764,14.596 L13.484,14.596 L13.484,10.661 L15.235,14.602 L16.425,14.602 L18.165,10.673 L18.165,14.603 L19.623,14.603 L19.647,9.083 L19.646,9.084 Z M28.986,11.852 L31.517,9.084 L29.695,9.084 L28.094,10.81 L26.546,9.084 L20.652,9.084 L20.652,14.602 L26.462,14.602 L28.076,12.864 L29.624,14.602 L31.499,14.602 L28.987,11.852 L28.986,11.852 Z"/></g></svg>
+
+                  </li><li>
+                    <svg class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" x="0" y="0" width="38" height="24" viewBox="0 0 165.521 105.965" xml:space="preserve" aria-labelledby="pi-apple_pay"><title id="pi-apple_pay">Apple Pay</title><path fill="#000" d="M150.698 0H14.823c-.566 0-1.133 0-1.698.003-.477.004-.953.009-1.43.022-1.039.028-2.087.09-3.113.274a10.51 10.51 0 0 0-2.958.975 9.932 9.932 0 0 0-4.35 4.35 10.463 10.463 0 0 0-.975 2.96C.113 9.611.052 10.658.024 11.696a70.22 70.22 0 0 0-.022 1.43C0 13.69 0 14.256 0 14.823v76.318c0 .567 0 1.132.002 1.699.003.476.009.953.022 1.43.028 1.036.09 2.084.275 3.11a10.46 10.46 0 0 0 .974 2.96 9.897 9.897 0 0 0 1.83 2.52 9.874 9.874 0 0 0 2.52 1.83c.947.483 1.917.79 2.96.977 1.025.183 2.073.245 3.112.273.477.011.953.017 1.43.02.565.004 1.132.004 1.698.004h135.875c.565 0 1.132 0 1.697-.004.476-.002.952-.009 1.431-.02 1.037-.028 2.085-.09 3.113-.273a10.478 10.478 0 0 0 2.958-.977 9.955 9.955 0 0 0 4.35-4.35c.483-.947.789-1.917.974-2.96.186-1.026.246-2.074.274-3.11.013-.477.02-.954.022-1.43.004-.567.004-1.132.004-1.699V14.824c0-.567 0-1.133-.004-1.699a63.067 63.067 0 0 0-.022-1.429c-.028-1.038-.088-2.085-.274-3.112a10.4 10.4 0 0 0-.974-2.96 9.94 9.94 0 0 0-4.35-4.35A10.52 10.52 0 0 0 156.939.3c-1.028-.185-2.076-.246-3.113-.274a71.417 71.417 0 0 0-1.431-.022C151.83 0 151.263 0 150.698 0z" /><path fill="#FFF" d="M150.698 3.532l1.672.003c.452.003.905.008 1.36.02.793.022 1.719.065 2.583.22.75.135 1.38.34 1.984.648a6.392 6.392 0 0 1 2.804 2.807c.306.6.51 1.226.645 1.983.154.854.197 1.783.218 2.58.013.45.019.9.02 1.36.005.557.005 1.113.005 1.671v76.318c0 .558 0 1.114-.004 1.682-.002.45-.008.9-.02 1.35-.022.796-.065 1.725-.221 2.589a6.855 6.855 0 0 1-.645 1.975 6.397 6.397 0 0 1-2.808 2.807c-.6.306-1.228.511-1.971.645-.881.157-1.847.2-2.574.22-.457.01-.912.017-1.379.019-.555.004-1.113.004-1.669.004H14.801c-.55 0-1.1 0-1.66-.004a74.993 74.993 0 0 1-1.35-.018c-.744-.02-1.71-.064-2.584-.22a6.938 6.938 0 0 1-1.986-.65 6.337 6.337 0 0 1-1.622-1.18 6.355 6.355 0 0 1-1.178-1.623 6.935 6.935 0 0 1-.646-1.985c-.156-.863-.2-1.788-.22-2.578a66.088 66.088 0 0 1-.02-1.355l-.003-1.327V14.474l.002-1.325a66.7 66.7 0 0 1 .02-1.357c.022-.792.065-1.717.222-2.587a6.924 6.924 0 0 1 .646-1.981c.304-.598.7-1.144 1.18-1.623a6.386 6.386 0 0 1 1.624-1.18 6.96 6.96 0 0 1 1.98-.646c.865-.155 1.792-.198 2.586-.22.452-.012.905-.017 1.354-.02l1.677-.003h135.875" /><g><g><path fill="#000" d="M43.508 35.77c1.404-1.755 2.356-4.112 2.105-6.52-2.054.102-4.56 1.355-6.012 3.112-1.303 1.504-2.456 3.959-2.156 6.266 2.306.2 4.61-1.152 6.063-2.858" /><path fill="#000" d="M45.587 39.079c-3.35-.2-6.196 1.9-7.795 1.9-1.6 0-4.049-1.8-6.698-1.751-3.447.05-6.645 2-8.395 5.1-3.598 6.2-.95 15.4 2.55 20.45 1.699 2.5 3.747 5.25 6.445 5.151 2.55-.1 3.549-1.65 6.647-1.65 3.097 0 3.997 1.65 6.696 1.6 2.798-.05 4.548-2.5 6.247-5 1.95-2.85 2.747-5.6 2.797-5.75-.05-.05-5.396-2.101-5.446-8.251-.05-5.15 4.198-7.6 4.398-7.751-2.399-3.548-6.147-3.948-7.447-4.048" /></g><g><path fill="#000" d="M78.973 32.11c7.278 0 12.347 5.017 12.347 12.321 0 7.33-5.173 12.373-12.529 12.373h-8.058V69.62h-5.822V32.11h14.062zm-8.24 19.807h6.68c5.07 0 7.954-2.729 7.954-7.46 0-4.73-2.885-7.434-7.928-7.434h-6.706v14.894z" /><path fill="#000" d="M92.764 61.847c0-4.809 3.665-7.564 10.423-7.98l7.252-.442v-2.08c0-3.04-2.001-4.704-5.562-4.704-2.938 0-5.07 1.507-5.51 3.82h-5.252c.157-4.86 4.731-8.395 10.918-8.395 6.654 0 10.995 3.483 10.995 8.89v18.663h-5.38v-4.497h-.13c-1.534 2.937-4.914 4.782-8.579 4.782-5.406 0-9.175-3.222-9.175-8.057zm17.675-2.417v-2.106l-6.472.416c-3.64.234-5.536 1.585-5.536 3.95 0 2.288 1.975 3.77 5.068 3.77 3.95 0 6.94-2.522 6.94-6.03z" /><path fill="#000" d="M120.975 79.652v-4.496c.364.051 1.247.103 1.715.103 2.573 0 4.029-1.09 4.913-3.899l.52-1.663-9.852-27.293h6.082l6.863 22.146h.13l6.862-22.146h5.927l-10.216 28.67c-2.34 6.577-5.017 8.735-10.683 8.735-.442 0-1.872-.052-2.261-.157z" /></g></g></svg>
+
+                  </li><li>
+                    <svg class="icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-master"><title id="pi-master">Mastercard</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"/><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"/><circle fill="#EB001B" cx="15" cy="12" r="7"/><circle fill="#F79E1B" cx="23" cy="12" r="7"/><path fill="#FF5F00" d="M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z"/></svg>
+                  </li><li>
+                    <svg class="icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" width="38" height="24" role="img" aria-labelledby="pi-paypal"><title id="pi-paypal">PayPal</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"/><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"/><path fill="#003087" d="M23.9 8.3c.2-1 0-1.7-.6-2.3-.6-.7-1.7-1-3.1-1h-4.1c-.3 0-.5.2-.6.5L14 15.6c0 .2.1.4.3.4H17l.4-3.4 1.8-2.2 4.7-2.1z"/><path fill="#3086C8" d="M23.9 8.3l-.2.2c-.5 2.8-2.2 3.8-4.6 3.8H18c-.3 0-.5.2-.6.5l-.6 3.9-.2 1c0 .2.1.4.3.4H19c.3 0 .5-.2.5-.4v-.1l.4-2.4v-.1c0-.2.3-.4.5-.4h.3c2.1 0 3.7-.8 4.1-3.2.2-1 .1-1.8-.4-2.4-.1-.5-.3-.7-.5-.8z"/><path fill="#012169" d="M23.3 8.1c-.1-.1-.2-.1-.3-.1-.1 0-.2 0-.3-.1-.3-.1-.7-.1-1.1-.1h-3c-.1 0-.2 0-.2.1-.2.1-.3.2-.3.4l-.7 4.4v.1c0-.3.3-.5.6-.5h1.3c2.5 0 4.1-1 4.6-3.8v-.2c-.1-.1-.3-.2-.5-.2h-.1z"/></svg>
+                  </li><li>
+                    <svg class="icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-visa"><title id="pi-visa">Visa</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"/><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"/><path d="M28.3 10.1H28c-.4 1-.7 1.5-1 3h1.9c-.3-1.5-.3-2.2-.6-3zm2.9 5.9h-1.7c-.1 0-.1 0-.2-.1l-.2-.9-.1-.2h-2.4c-.1 0-.2 0-.2.2l-.3.9c0 .1-.1.1-.1.1h-2.1l.2-.5L27 8.7c0-.5.3-.7.8-.7h1.5c.1 0 .2 0 .2.2l1.4 6.5c.1.4.2.7.2 1.1.1.1.1.1.1.2zm-13.4-.3l.4-1.8c.1 0 .2.1.2.1.7.3 1.4.5 2.1.4.2 0 .5-.1.7-.2.5-.2.5-.7.1-1.1-.2-.2-.5-.3-.8-.5-.4-.2-.8-.4-1.1-.7-1.2-1-.8-2.4-.1-3.1.6-.4.9-.8 1.7-.8 1.2 0 2.5 0 3.1.2h.1c-.1.6-.2 1.1-.4 1.7-.5-.2-1-.4-1.5-.4-.3 0-.6 0-.9.1-.2 0-.3.1-.4.2-.2.2-.2.5 0 .7l.5.4c.4.2.8.4 1.1.6.5.3 1 .8 1.1 1.4.2.9-.1 1.7-.9 2.3-.5.4-.7.6-1.4.6-1.4 0-2.5.1-3.4-.2-.1.2-.1.2-.2.1zm-3.5.3c.1-.7.1-.7.2-1 .5-2.2 1-4.5 1.4-6.7.1-.2.1-.3.3-.3H18c-.2 1.2-.4 2.1-.7 3.2-.3 1.5-.6 3-1 4.5 0 .2-.1.2-.3.2M5 8.2c0-.1.2-.2.3-.2h3.4c.5 0 .9.3 1 .8l.9 4.4c0 .1 0 .1.1.2 0-.1.1-.1.1-.1l2.1-5.1c-.1-.1 0-.2.1-.2h2.1c0 .1 0 .1-.1.2l-3.1 7.3c-.1.2-.1.3-.2.4-.1.1-.3 0-.5 0H9.7c-.1 0-.2 0-.2-.2L7.9 9.5c-.2-.2-.5-.5-.9-.6-.6-.3-1.7-.5-1.9-.5L5 8.2z" fill="#142688"/></svg>
+                  </li></ul></div>
+    </div>
+
+  </div>
+</footer>
+
+
+
+
+</div>
+
+  </div>
+
+  
+  <script>
+    
+  </script>
+
+  
+  
+    <!-- /snippets/ajax-cart-template.liquid -->
+
+  <script id="CartTemplate" type="text/template">
+  
+    <form action="/cart" method="post" novalidate class="cart ajaxcart">
+      <div class="ajaxcart__inner ajaxcart__inner--has-fixed-footer">
+        {{#items}}
+        <div class="ajaxcart__product">
+          <div class="ajaxcart__row" data-line="{{line}}">
+            <div class="grid">
+              <div class="grid__item one-quarter">
+                <a href="{{url}}" class="ajaxcart__product-image"><img src="{{img}}" alt="{{name}}"></a>
+              </div>
+              <div class="grid__item three-quarters">
+                <div class="ajaxcart__product-name--wrapper">
+                  <a href="{{url}}" class="ajaxcart__product-name">{{{name}}}</a>
+                  {{#if variation}}
+                    <span class="ajaxcart__product-meta">{{variation}}</span>
+                  {{/if}}
+                  {{#properties}}
+                    {{#each this}}
+                      {{#if this}}
+                        <span class="ajaxcart__product-meta">{{@key}}: {{this}}</span>
+                      {{/if}}
+                    {{/each}}
+                  {{/properties}}
+                </div>
+
+                <div class="grid--full display-table">
+                  <div class="grid__item display-table-cell one-half">
+                    <div class="ajaxcart__qty">
+                      <button type="button" class="ajaxcart__qty-adjust ajaxcart__qty--minus icon-fallback-text" data-id="{{key}}" data-qty="{{itemMinus}}" data-line="{{line}}" aria-label="Réduire la quantité de l&#39;article de un">
+                        <span class="icon icon-minus" aria-hidden="true"></span>
+                        <span class="fallback-text" aria-hidden="true">&minus;</span>
+                      </button>
+                      <input type="text" name="updates[]" class="ajaxcart__qty-num" value="{{itemQty}}" min="0" data-id="{{key}}" data-line="{{line}}" aria-label="quantity" pattern="[0-9]*">
+                      <button type="button" class="ajaxcart__qty-adjust ajaxcart__qty--plus icon-fallback-text" data-id="{{key}}" data-line="{{line}}" data-qty="{{itemAdd}}" aria-label="Augmenter la quantité de l&#39;article de un">
+                        <span class="icon icon-plus" aria-hidden="true"></span>
+                        <span class="fallback-text" aria-hidden="true">+</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="grid__item display-table-cell one-half text-right">
+                    {{#if discountsApplied}}
+                      <small class="ajaxcart__price--strikethrough">{{{price}}}</small>
+                      <span class="ajaxcart__price">
+                        {{{discountedPrice}}}
+                      </span>
+                    {{else}}
+                      <span class="ajaxcart__price">
+                        {{{price}}}
+                      </span>
+                    {{/if}}
+                  </div>
+                </div>
+                {{#if discountsApplied}}
+                  <div class="grid--full display-table">
+                    <div class="grid__item text-right">
+                      {{#each discounts}}
+                        <small class="ajaxcart__discount">{{this.title}}</small>
+                      {{/each}}
+                    </div>
+                  </div>
+                {{/if}}
+              </div>
+            </div>
+          </div>
+        </div>
+        {{/items}}
+
+        
+      </div>
+      <div class="ajaxcart__footer ajaxcart__footer--fixed">
+        <div class="grid--full">
+          <div class="grid__item two-thirds">
+            <p class="ajaxcart__subtotal">Sous-total</p>
+          </div>
+          <div class="grid__item one-third text-right">
+            <p class="ajaxcart__subtotal">{{{totalPrice}}}</p>
+          </div>
+        </div>
+        {{#if totalCartDiscount}}
+          <p class="ajaxcart__savings text-center">{{{totalCartDiscount}}}</p>
+        {{/if}}
+
+        <p class="ajaxcart__policies">
+Taxes incluses et frais de port calculés à la caisse
+
+        </p>
+        <button type="submit" class="btn--secondary btn--full cart__checkout" name="checkout">
+          Procéder au paiement <span class="icon icon-arrow-right" aria-hidden="true"></span>
+        </button>
+      </div>
+    </form>
+  
+  </script>
+  <script id="AjaxQty" type="text/template">
+  
+    <div class="ajaxcart__qty">
+      <button type="button" class="ajaxcart__qty-adjust ajaxcart__qty--minus icon-fallback-text" data-id="{{key}}" data-qty="{{itemMinus}}" aria-label="Réduire la quantité de l&#39;article de un">
+        <span class="icon icon-minus" aria-hidden="true"></span>
+        <span class="fallback-text" aria-hidden="true">&minus;</span>
+      </button>
+      <input type="text" class="ajaxcart__qty-num" value="{{itemQty}}" min="0" data-id="{{key}}" aria-label="quantity" pattern="[0-9]*">
+      <button type="button" class="ajaxcart__qty-adjust ajaxcart__qty--plus icon-fallback-text" data-id="{{key}}" data-qty="{{itemAdd}}" aria-label="Augmenter la quantité de l&#39;article de un">
+        <span class="icon icon-plus" aria-hidden="true"></span>
+        <span class="fallback-text" aria-hidden="true">+</span>
+      </button>
+    </div>
+  
+  </script>
+  <script id="JsQty" type="text/template">
+  
+    <div class="js-qty">
+      <button type="button" class="js-qty__adjust js-qty__adjust--minus icon-fallback-text" data-id="{{key}}" data-qty="{{itemMinus}}" aria-label="Réduire la quantité de l&#39;article de un">
+        <span class="icon icon-minus" aria-hidden="true"></span>
+        <span class="fallback-text" aria-hidden="true">&minus;</span>
+      </button>
+      <input type="text" class="js-qty__num" value="{{itemQty}}" min="1" data-id="{{key}}" aria-label="quantity" pattern="[0-9]*" name="{{inputName}}" id="{{inputId}}">
+      <button type="button" class="js-qty__adjust js-qty__adjust--plus icon-fallback-text" data-id="{{key}}" data-qty="{{itemAdd}}" aria-label="Augmenter la quantité de l&#39;article de un">
+        <span class="icon icon-plus" aria-hidden="true"></span>
+        <span class="fallback-text" aria-hidden="true">+</span>
+      </button>
+    </div>
+  
+  </script>
+
+  
+
+  
+      <script>
+        // Override default values of shop.strings for each template.
+        // Alternate product templates can change values of
+        // add to cart button, sold out, and unavailable states here.
+        theme.productStrings = {
+          addToCart: "Ajouter au panier",
+          soldOut: "Épuisé",
+          unavailable: "Non disponible"
+        }
+      </script>
+    
+
+  <div id="SearchModal" class="mfp-hide">
+    <!-- /snippets/search-bar.liquid -->
+
+
+
+
+
+<form action="/search" method="get" class="input-group search-bar search-bar--modal" role="search">
+  
+  <input type="search" name="q" value="" placeholder="Rechercher dans la boutique" class="input-group-field" aria-label="Rechercher dans la boutique">
+  <span class="input-group-btn">
+    <button type="submit" class="btn icon-fallback-text">
+      <span class="icon icon-search" aria-hidden="true"></span>
+      <span class="fallback-text">Recherche</span>
+    </button>
+  </span>
+</form>
+
+  </div>
+  
+<script type="text/javascript" async 
+ src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=KcqgNy"></script>
+</body>
+</html>
