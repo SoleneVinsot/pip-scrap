@@ -61,3 +61,17 @@ Extrait les informations du site [https://www.barreau-marseille.avocat.fr/](http
 
 Démarrer le script `scrapper.py` pour extraire les informations.
 
+### Scrapper 4
+
+Extrait les informations des site [https://www.avis-sportifs.com/](https://www.avis-sportifs.com/) (*Recensement d'avis sur les équipements de sport*), [https://www.decathlon.fr/](https://www.decathlon.fr/) (*Équipements de sport*) et [https://www.go-sport.com](https://www.go-sport.com/running/) (*Équipements de sport*) :
+
+* Nom du produit ;
+* Catégorie du produit ;
+* Marque ;
+* Prix ;
+* Nombre d'avis ;
+
+Démarrer le script `scrapper_AS.py` pour récupérer les données du site avis-sportifs.
+Ensuite, démarrer le script `scrapper_total.py` pour récuperer les données collectées dans le premier site, extraire les informations et analyser les données.
+
+Cette étude à pour but de répondre à la problématique : "Quels sont les déterminants de la popularité d’un popularité d’un produit ?"
